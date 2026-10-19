@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
+  "notes": "# Waymark 0.2.8\r\n\r\n- Pet farming routes: select target pets, prioritize known unfinished levels, combine shared farming regions, preview stops and save a named per-character route. Verteron and Altgard use general region references; routes are straight-line planning aids, not safe terrain paths or exact spawns.\r\n- Progress details show manual marks separately from saved game observations, with observation time and independent first-clear/current-period/reward states when supported.\r\n- First-launch map/minimap setup for new installations, available again from Settings. Existing installations retain their settings without an automatic setup popup.\r\n- Current and available update notes in Settings. New automatic update backups include a full archive that the normal Restore dialog can open. The owned reader is stopped before snapshot creation.\r\n\r\nExisting data is preserved. No new recording or game action is required. Automatic dungeon/stronghold/teleport completion and precise network movement still need independent gameplay evidence.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzhQbTh3aGRPcVBrNnpQQ3dWUU9Qci9xYS9ad1o2YXptS3lxb3ZMdHkrWnNScVVMa0pneWszQ1NYNVJZdDRqUCtkWjFqNDBEU3NROGVvUHQ2dmFhNXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDM2MDE0CWZpbGU6V2F5bWFya18wLjIuN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjcKQTdsbTM2cnNVa0FtYjNtTTJNVXpTcFFVZXZNcFl5NzZKTC9Yd1pBNXlYYjZVeTVpYmhiZ2NmUnQrVjBoS1dyTTQ2dVc5S1Yzdk9hS0FtZlVoZ3pIQ2c9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.7/Waymark-0.2.7-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzJBdndLOUY0R1d3bGVqeXhFMmZ6eWZVTktHMFMzSlVMUHpiTSswL2RMVVJ4UFJ3SWRCeXZ6QkZvVktQWVZ6RkJNaS9tZUYxMWhPTjYwdkNHK3ZNS2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDM4NDcwCWZpbGU6V2F5bWFya18wLjIuOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjgKVDRlZ05QbjU2eWRJZkkwTTZYakp1S0RDODlXVzQvQVB2M3BVeHo5UVJqRXhHd2c4WlM4cU44eXVyYW96bEdvcFVlTDFsWUZXbFRnZDc5WGJjMU5IRGc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.8/Waymark-0.2.8-Setup.exe"
     }
   },
-  "pub_date": "2026-10-19T18:55:09Z",
-  "notes": "# Waymark 0.2.7\r\n\r\n- Refined Waymark wordmark and emblem with a cohesive gold and teal title treatment.\r\n- Tracking status in Settings shows selected versus detected character, recent visual position, partial server pet observations and confirmed versus manual completion counts.\r\n- Corrected outdated connection capability descriptions. Status checks never start a recording, and missing observations remain unknown.\r\n- Added bounded offline regression checks for existing capture sessions and completion isolation.\r\n\r\nNo new live-game testing or automatic dungeon, stronghold, teleport or network movement decoder is claimed. Existing saves and settings are retained.\r\n"
+  "version": "0.2.8",
+  "pub_date": "2026-10-19T19:36:33Z"
 }
