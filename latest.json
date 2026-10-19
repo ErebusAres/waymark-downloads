@@ -1,0 +1,11 @@
+{
+  "notes": "# Waymark 0.2.5\r\n\r\nDownload **Waymark-0.2.5-Setup.exe** and run it once. Waymark includes its tracking worker; no GitHub account, Python, GitHub CLI or separate updater is needed. Existing Npcap tracking requirements are unchanged.\r\n\r\nSubsequent releases can be downloaded and installed in Waymark. Downloads show a percentage bar. **Install and restart** saves a local recovery snapshot, closes tracking safely, installs the verified update and reopens Waymark. Check on launch is enabled by default; automatic downloading and installation are opt-in in Settings.\r\n\r\nYour character data, pets, completion history, settings, window positions, pins and routes remain in their existing local data folder. Update recovery snapshots are stored in its `backups/update-*` folders. The installer does not remove this data.\r\n\r\nThe portable ZIP remains available for manual use. Users on 0.2.4 need to run this installer once to obtain the new in-app updater.\r\n\r\nThis is an unofficial AION 2 preview. Map/collection tracking has the same limitations as 0.2.4. Installer/update signatures authenticate Waymark releases; a Windows publisher certificate is not yet configured, so Windows may still display its usual reputation prompt.\r\n",
+  "pub_date": "2026-10-19T15:18:56Z",
+  "version": "0.2.5",
+  "platforms": {
+    "windows-x86_64": {
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.5/Waymark-0.2.5-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzlUY0dBdGJ6ZFY1ZExaclNUUzdKcVNRd3FHb3JJT0tqSXY4QXN0aXUyT3ZPalQxUjZkeGRTQlhvR0tyRGwydGV4QmVkbTFwY1RhaExSbkdLZFZndWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDIyNTkzCWZpbGU6V2F5bWFya18wLjIuNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjUKM29vYlBmT3ZRYXZQMDhJalVld0ZDdnRoM2sxdmRJMDBtVUpCOG9OQXJHK2hOaFVlR24xOGFBL25PcmlxMmpDWXdURzZqV2JSeTVHbUwyY3pTZnJNRGc9PQo="
+    }
+  }
+}
