@@ -1,17 +1,57 @@
-# Waymark downloads
+# Waymark for AION 2
 
-Windows previews for the AION 2 exploration companion.
+**Maps, farming routes and pet progress for AION 2.**
 
-## Install
+Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-Open [Releases](https://github.com/ErebusAres/waymark-downloads/releases), download **Waymark-0.2.5-Setup.exe**, and run it once. The tracking worker is included. No Python, GitHub CLI, GitHub account or separate updater is needed. Users on 0.2.4 should run Setup once to enable future in-app updates.
+[**Download Waymark 0.2.13 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.13/Waymark-0.2.13-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.2.13) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
-Updates show a percentage bar, then **Install and restart** installs the signed release and reopens Waymark. Settings includes check-on-launch (on by default), automatic downloading and automatic installation (both off by default). A local recovery snapshot is saved before installation. The portable ZIP remains available for manual use.
+Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
-Includes terrain maps for Verteron, Altgard and Abyss; feather/gathering references; visual position tracking; minimap; character/server-pet profiles; custom pins and saved routes. This is an early preview. Most completion tracking is manual and resource availability is not live.
+![Waymark exploration map with terrain, map layers and a glowing player marker](docs/images/explore.jpg)
 
-Shift-click adds a named pin. Ctrl-click sets a route start. Ctrl+Shift+G unlocks click-through overlays. Existing user data stays under `%LOCALAPPDATA%/AionCompanion`, separately from the app.
+## Explore with a purpose
 
-Each release includes a SHA-256 checksum, manifest and source revision. Npcap is installed separately for the optional passive login/pet reader; it is not bundled. The installer handles WebView2 if missing. Update signatures verify Waymark releases; a Windows publisher certificate is not configured, so Windows may display its usual reputation prompt.
+- **World maps with terrain.** Find feathers, gathering nodes, kibelisks, sealed dungeons and strongholds. Verteron and Altgard use English kibelisk names; Abyss reference maps are also included.
+- **Choose what appears.** Toggle whole categories, resource groups or individual resources. Show every enabled marker when zoomed out, or turn on grouping.
+- **Keep your own routes.** Name custom pins, choose a route start and save a circuit. Filters, follow mode, routes and map views are remembered.
+- **A minimap that fits your setup.** Move it, cycle three zoom levels, or scroll to zoom while unlocked. It stays above other windows and can lock with click-through enabled.
+- **Track collection progress.** Mark individual objectives or declare a whole category complete for a character. Progress can be reset in Settings.
 
-The source repository is managed separately. Game artwork and third-party notices remain included in the app.
+## See your next pet upgrade
+
+Pet cards bring together portraits, names, farming locations, levels and soul progress. Closest to complete is the default order, with completed level 3 pets at the bottom. Switch to alphabetical, least progress first, or recent pickups.
+
+Supported live soul pickups update progress without relogging, and reaching a tier threshold advances the displayed level. Pet progress is shared between characters on the same server. Farming locations use reference monster spawn points where available, with regional fallbacks labeled separately.
+
+![Waymark pet page with compact cards and soul progress bars](docs/images/pets.jpg)
+
+*Screenshots show the 0.2.13 interface with an example profile and illustrative progress.*
+
+## Start playing
+
+1. Download and run **Waymark-0.2.13-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+2. Choose a starting map and whether to open the floating minimap. You can change both later.
+3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
+4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
+5. Open the in-game map briefly to acquire a visual position, then choose your layers and route.
+
+See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update settings, troubleshooting and backups.
+
+## Current coverage
+
+Waymark is under active development. Visual position tracking is verified in Verteron and Altgard. Abyss tracking and cross-faction transitions still need live validation. Position comes from visible game terrain; a last-known marker remains visible when a fresh fix is unavailable.
+
+Resource and pet spawn markers are reference locations, not a live spawn-availability feed. Routes connect map objectives; they do not calculate a walkable path around terrain. Automatic claimed-feather recognition is limited to supported Verteron map views. Dungeon and stronghold completion, including reset-period rewards, is not yet fully detected automatically; use manual collection controls where needed. Inventory and other character information depend on the fields the reader can currently observe.
+
+## Updates and local data
+
+Waymark checks for updates on launch by default. Download and automatic installation preferences are available in **Settings → Updates**. Downloads show progress; installing an update restarts the app. The built-in updater verifies release signatures before installation.
+
+Character observations, progress, pins, routes and settings are stored locally. Waymark does not ask for your game password, control your character or inject code into the game. Research recordings are explicit local captures, not automatic uploads. Use the backup tools in Settings before moving or resetting data.
+
+## Help and feedback
+
+[Report a problem or request a feature](https://github.com/ErebusAres/waymark-downloads/issues). Include the Waymark version, map, steps to reproduce and a screenshot if useful. Keep login details and packet captures out of public issues.
+
+This repository contains public downloads and documentation. Application source is maintained separately. Waymark is an independent project and is not affiliated with NCSOFT. AION 2 names and game artwork belong to their respective owners; bundled attribution accompanies the app.
