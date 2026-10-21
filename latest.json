@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.3.3 preview\r\n\r\n- Settings → Connection can review/copy or save a diagnostic JSON report using the native Save dialog. It contains allowlisted status codes and counts only: no names, character/server/session IDs, maps, coordinates, filesystem paths, IPs, raw errors or packet data. Nothing is uploaded.\r\n- Failed update preparation or installer startup retains the verified download in memory for retry and restores worker operation. A restarted reader still requires fresh login evidence. This does not implement rollback after Windows installation begins.\r\n- Automatic reader supervision retains a healthy process and can replace a crashed reader. Spawn failures leave the next attempt retryable.\r\n- Current Settings, minimap and detection-coverage documentation replaces conflicting early-build instructions. Historical engineering records are labeled separately.\r\n- Normal tests now include isolated reader-process crashes, update-handoff failures, interrupted downloads and backup/settings-write failures. Existing files and saved state are checked for preservation.\r\n\r\nNo redesign, game interaction, game recording or new gameplay decoder is included. Live tracking and completion coverage remain as documented in DETECTION_COVERAGE.md.\r\n",
+  "pub_date": "2026-10-21T14:46:57Z",
+  "version": "0.3.4",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzRnUnBKN1Z2WGRkVXlCME5Bbkxkd2NndWdUR3Ridi9rRkdEbWNEU3dEQnFJNkloT2MzQ2ppZ1JPMGtwK29JMjM1dnV3YXlZYzJkQS9MbE1ycXB1Y1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkwMDM4CWZpbGU6V2F5bWFya18wLjMuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjMKSlJFQ0k4OHNKY29HT1Bxd0ZxMW9wL3F6UlFCSExYSnlLMHlVem85cFRPajVRd3BXbytWR05tcWNsQThJYU42N00yWlVYWGtVV0RyUkM5MTZvTS9DQ0E9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.3/Waymark-0.3.3-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzI2NEE2S05GWFNyVk8zeDFQanZOU2tGVUZka1lGWXVxekg4NEl3elIvTkZkWkNqTkNvdHk0Zy9kSFhGNUowVkZOVndhdGNCREtuaHU3MWwrZmFZaXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkzOTI2CWZpbGU6V2F5bWFya18wLjMuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjQKQnhiM2swQWVNRWFYZHA0L05hTlBMMmFSNTk4U0dGQ3htTHRPbHpmZE5jZUhMQytxUVF2a29RY21CV2VPYm15UloyM0JzV29aVmY0T3lpSll1OHV5RFE9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.4/Waymark-0.3.4-Setup.exe"
     }
   },
-  "pub_date": "2026-10-21T13:45:21Z",
-  "version": "0.3.3"
+  "notes": "## Custom colors\r\n\r\nSettings → Appearance now includes color pickers and hex values for the player marker and glow, last known position, pet ranks, resources, feathers, teleport locations, dungeons, strongholds, custom pins and routes.\r\n\r\nColors save automatically and apply to the main map, floating minimap and pet cards. Each color has its own reset; Reset all colors restores the original palette without changing other settings or collection progress.\r\n\r\nOriginal game icons remain visible, with custom map colors applied as marker accents.\r\n"
 }
