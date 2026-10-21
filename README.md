@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.2.13 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.13/Waymark-0.2.13-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.2.13) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.3.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.0/Waymark-0.3.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.3.0) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -26,11 +26,17 @@ Supported live soul pickups update progress without relogging, and reaching a ti
 
 ![Waymark pet page with compact cards and soul progress bars](docs/images/pets.jpg)
 
-*Screenshots show the 0.2.13 interface with an example profile and illustrative progress.*
+*Screenshots show the 0.3.0 interface with an example profile and illustrative progress.*
+
+## A cleaner desktop workspace
+
+The 0.3.0 refresh gives maps and pet cards more room, keeps controls consistent, and separates everyday settings from capture and calibration tools. Settings now has General, Updates, Data & backups, Connection and Advanced sections.
+
+![Waymark settings with a dedicated navigation list](docs/images/settings.jpg)
 
 ## Start playing
 
-1. Download and run **Waymark-0.2.13-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.3.0-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -48,7 +54,7 @@ Resource and pet spawn markers are reference locations, not a live spawn-availab
 
 Waymark checks for updates on launch by default. Download and automatic installation preferences are available in **Settings → Updates**. Downloads show progress; installing an update restarts the app. The built-in updater verifies release signatures before installation.
 
-Character observations, progress, pins, routes and settings are stored locally. Waymark does not ask for your game password, control your character or inject code into the game. Research recordings are explicit local captures, not automatic uploads. Use the backup tools in Settings before moving or resetting data.
+Character observations, progress, pins, routes and settings are stored locally. Waymark does not ask for your game password, control your character or inject code into the game. Research recordings are explicit local captures, not automatic uploads. Use **Settings → Data & backups** before moving or resetting data.
 
 ## Help and feedback
 

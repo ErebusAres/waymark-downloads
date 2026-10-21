@@ -1,14 +1,14 @@
 # Getting started with Waymark
 
-[Download 0.2.13](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.13/Waymark-0.2.13-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.0/Waymark-0.3.0-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.2.13-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
-![First-run setup with the starting map and floating minimap checkbox](images/setup.jpg)
+![Quick setup with the starting map and floating minimap checkbox](images/setup.jpg)
 
 The preview installer does not currently have a Windows publisher certificate. The built-in updater separately verifies Waymark release signatures; this is different from Windows publisher signing. Download only from this repository's Releases page.
 
@@ -43,7 +43,7 @@ Routes are map guidance between reference points, not terrain-aware navigation. 
 
 ## Floating minimap
 
-Use **Minimap** on Explore or **Settings → Application → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
+Use **Minimap** on Explore or **Settings → General → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
 
 The minimap starts near the player at the closest zoom tier. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. Lock enables click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
 
@@ -65,7 +65,7 @@ Supported Verteron map views can recognize claimed-feather evidence. Automatic c
 
 ## Saved preferences
 
-Map layers, individual resource filters, Follow, per-map pan and zoom, custom pins, circuits, named routes, pet sorting and collection filters are saved locally. The minimap remembers whether it is open, its X/Y position, zoom tier and lock. Main-window position, size and maximized state are also retained. If a monitor is disconnected, an off-screen window returns to the primary display.
+Map layers, individual resource filters, Follow, per-map pan and zoom, custom pins, circuits, named routes, pet sorting, collection filters, inventory filters and the selected Settings section are saved locally. The minimap remembers whether it is open, its X/Y position, zoom tier and lock. Main-window position, size and maximized state are also retained. If a monitor is disconnected, an off-screen window returns to the primary display.
 
 Update preferences are saved in Settings. **Launch at startup** controls the current Windows user's startup entry.
 
@@ -83,8 +83,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.2.13, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.2.13; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.0, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.0; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
