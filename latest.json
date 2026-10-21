@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.2.10\r\n\r\nThe player marker is a glowing dot again. Live positions pulse teal; last-known positions keep a larger, steady amber glow and a dashed ring, so they remain easy to find without implying a facing direction.\r\n\r\nPet tracking now retains the verified character and event sequence when the game refreshes unrelated connections. Identity stays bound to the same exact connection and is discarded when that connection closes or is reused. The reader also accepts the 23-byte level record observed in a local Global capture, interpreting only its documented pet and level fields.\r\n\r\nRegression checks cover connection refreshes, unrelated flows, closed/reused connections, and supported level records. The captured soul-gain and level messages decode successfully; a new end-to-end live pickup still needs verification after a fresh login. Existing saved progress and routes are preserved.\r\n",
-  "pub_date": "2026-10-21T00:10:43Z",
-  "version": "0.2.10",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.10/Waymark-0.2.10-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzdtWmJUQ2lVQVVQMitET0ZrUkwxdnBKcFJrNkpJVlU0c0hVeVU4aTFLNThoTE1mdklTSlBma2c2bHd0b2N3a2hNSkFnRlZCS01CbXBmVjZyZktjaHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQxMzMyCWZpbGU6V2F5bWFya18wLjIuMTBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xMAovdWZKMDhJTXFITzBpUHdZOCtBSzI3bHNFWExiYVR4T29TaDB5ZHZsN2ZpQlVFdHFvay9nckRGTUxITzRseGdsVFcrMTRwakdYZG1IUWtJQmFPVW1CUT09Cg=="
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.11/Waymark-0.2.11-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzRHTjZNTlVOV3M5b2VsMnJCTXlVN0NKcGc4SHZGbzNueEZjWUdyZWZPT3NOKzZ4NGtYT1ArcjJ6ZTNVWTVkRlFpaGtYZmJwTXV0TjZwWkRFb1VaaHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQyNTUzCWZpbGU6V2F5bWFya18wLjIuMTFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xMQpjNTdXQzRYNFB6Q2Q4MGtMWW5uOHNjTE1YcWppV0lQaXovM1dNZTdLVjBWNHlTell6am5MV28yc1Y1bFc0QVdaeVRJQTJJMUM3ZUQwVUI2SUJNSWxEZz09Cg=="
     }
-  }
+  },
+  "notes": "# Waymark 0.2.11\r\n\r\nFixes live pet soul tracking stopping after login. Waymark now keeps the capture handle for an active game connection open when unrelated sockets change. New connections receive separate exact-endpoint filters, and retired filters are closed without interrupting the active stream. TCP ordering and retransmission deduplication stay intact; identity is never copied to another connection.\r\n\r\nA live Global validation detected Jilara's fresh login and saved two Skama soul gains and one Sylphen soul gain without relogging. The validation used the corrected reader with isolated local data. A regression check also verifies that a fragmented pet message survives unrelated socket additions and removals.\r\n\r\nIncludes the glowing player dot from 0.2.10: pulsing teal for live position, and a larger steady amber glow for last known. Existing saved progress, pets, pins and routes are preserved. A fresh login is required after restarting the reader mid-session.\r\n",
+  "pub_date": "2026-10-21T00:31:20Z",
+  "version": "0.2.11"
 }
