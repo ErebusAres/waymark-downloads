@@ -8,6 +8,8 @@ Run **Waymark-0.2.13-Setup.exe** on 64-bit Windows 10 or 11. The installer inclu
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
+![First-run setup with the starting map and floating minimap checkbox](images/setup.jpg)
+
 The preview installer does not currently have a Windows publisher certificate. The built-in updater separately verifies Waymark release signatures; this is different from Windows publisher signing. Download only from this repository's Releases page.
 
 ## Enable automatic reads
