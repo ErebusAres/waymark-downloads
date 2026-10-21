@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-10-21T01:00:41Z",
-  "notes": "# Waymark 0.2.12\r\n\r\nPet cards now show current per-tier soul totals and progress bars (5, 25 and 75), with automatic level advancement as the threshold is reached. Delayed level notifications preserve souls already collected toward the next tier, and fresh login reads resync the tracked total. Existing legacy baseline plus session gains are reconciled once, without counting old gains twice.\r\n\r\nThe default sort orders unfinished pets by level and closest progress within each level. Level 3 pets stay at the bottom. The sort icon now also cycles to Recent pickups, which automatically brings newly collected unfinished pets to the top. The selected mode is saved.\r\n\r\nCards are narrower, more compact and consistently sized, with two-line names and locations. The pet page explicitly shows when the reader is waiting for character login instead of silently displaying old counts. Restarting mid-session still requires one fresh character login to bind live pickups.\r\n",
+  "version": "0.2.13",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.12/Waymark-0.2.12-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzFsY0V0enJMbkJtbnVYYWhYSEF5RWkycDcwT0tHZlY5NHpKRzlwcHZENElHS1VvK2Y0WUZuRlJubERoSnZWNTVBbjRiVGc4N3ZreElhRjRkSGp4cmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTQ0MzM4CWZpbGU6V2F5bWFya18wLjIuMTJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xMgpHWHkwQTZZS1NycDlBSlgxQzVlMmhIVS9yMGxrSEJSNkRtY0kwaFJieTV2ZE83dkQwME54NW5ycUlneDRRVDJxekt3aTQxR3JTYVFJRmdaTjRBekdBdz09Cg=="
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.13/Waymark-0.2.13-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzhsR3IwSkZGaVVhZmEwWlhLTG9uUVpkVkREakFEdlRMYjVzZXhPL2psOC9CUHJRd1A3MzNtemUzVUR1WVNzNzFJdVN2djFMTDBCTzV1cms0ZTE3S3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU3MTMwCWZpbGU6V2F5bWFya18wLjIuMTNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xMwpRdlQzTk94bFFHcml6YmhaaXB4UDM3V1htbm5McU1mWU1YTU9MM3FhQmtSU1NidmZqWkJkMTV6NTV0WGZIM0lJMXl4bFRhOGZlazNXazFQSkxCVWpBZz09Cg=="
     }
   },
-  "version": "0.2.12"
+  "pub_date": "2026-10-21T04:36:35Z",
+  "notes": "# Waymark 0.2.13\r\n\r\n- Fixed the first-run setup layout and floating minimap checkbox. Both setup actions now retain your choice.\r\n- Turning off the minimap in Settings closes it immediately and keeps it off on the next launch. Re-enabling it no longer conflicts with an older saved window layout.\r\n- Native minimap closes also update the saved visibility preference. Position, zoom, lock, Follow, layers, pins and routes remain persistent.\r\n- Replaced all 122 Verteron and Altgard kibelisk labels with English names. Marker IDs and positions are unchanged, preserving saved routes and progress.\r\n\r\nThis build also includes the compact pet cards, live soul progress bars, automatic tier advancement and recent-pickup sorting introduced in 0.2.12.\r\n"
 }
