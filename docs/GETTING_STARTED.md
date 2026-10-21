@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.0/Waymark-0.3.0-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.1](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.1/Waymark-0.3.1-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.1-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -17,9 +17,11 @@ The preview installer does not currently have a Windows publisher certificate. T
 Map browsing, filters, pins and manual progress work without a game connection. For automatic character identification and pet reads:
 
 1. Install [Npcap](https://npcap.com/#download) from its official site. Enable **Install Npcap in WinPcap API-compatible Mode**; see the [official installation guide](https://npcap.com/guide/npcap-users-guide.html).
-2. Run only one AION 2 Global Steam client. Close NotMeter, A2Tools or AetherTrail while testing Waymark's reader to avoid competing capture sessions.
+2. Run only one AION 2 Global Steam client. Waymark's passive reader can run alongside NotMeter. Keep A2Tools and AetherTrail closed. Independent Npcap handles were checked with local test traffic; simultaneous gameplay with NotMeter still needs confirmation.
 3. Start Waymark, then enter your character. If the character was already logged in when Waymark started, return to character selection and enter once.
 4. Check the character selector. Waymark switches profiles when it identifies another character; pets are shared by server, while collection progress belongs to the selected character.
+
+Explicit research recording still requires closing NotMeter and the other readers. Passive character/pet reading does not save raw packets.
 
 Missing observations remain unknown. Selecting a planning profile manually does not identify a game session or create a pet baseline.
 
@@ -83,8 +85,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.0, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.0; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.1, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.1; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
