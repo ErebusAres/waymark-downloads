@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.2](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.2/Waymark-0.3.2-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.3](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.3/Waymark-0.3.3-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.2-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.3-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -77,7 +77,13 @@ Update preferences are saved in Settings. **Launch at startup** controls the cur
 
 **Check on launch** is enabled by default. In **Settings → Updates**, choose whether Waymark should download or install automatically. Manual installation is also available after a verified download. The app displays download progress and an installing message, then restarts when complete.
 
-GitHub releases are the public update source. Local build support remains available in Settings. Automatic updates preserve the workspace and create recovery backups. A full backup is still useful before moving machines or making a large reset.
+GitHub releases are the public update source. Local build support remains available in Settings. Automatic updates preserve the workspace and create recovery backups. A full backup is still useful before moving machines or making a large reset. If preparation or installer startup fails, the verified download remains available for retry until the app closes and normal worker operation resumes. A restarted reader may need fresh character login evidence. If Windows installation itself was interrupted, rerun a working Setup build and use Data & backups to review a recovery archive if needed; automatic rollback after installation begins is not implemented.
+
+## Diagnostic reports
+
+In **Settings → Connection**, use **Review / copy report** to inspect and copy the diagnostic JSON, or **Save report…** to choose a local file. It contains status codes and counts only; character/server/session IDs, names, maps, coordinates, paths, IP addresses, raw errors and packets are excluded. Nothing is uploaded automatically. The detailed local reader panel remains separate from this report. See [current detection coverage](DETECTION_COVERAGE.md).
+
+![Example diagnostic report with identifiers and locations excluded](images/diagnostics.jpg)
 
 ## Backups and troubleshooting
 
@@ -87,8 +93,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.2, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.2; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.3, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.3; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
