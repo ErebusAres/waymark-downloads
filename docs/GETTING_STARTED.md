@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.1](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.1/Waymark-0.3.1-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.2](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.2/Waymark-0.3.2-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.1-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.2-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -57,6 +57,8 @@ The Pets page shows portraits, farming references and the latest observed level 
 
 Closest to complete puts the highest unfinished tier first, then the most points within that tier. Completed level 3 pets remain at the bottom. Use the sort icon to cycle through closest, least progress, alphabetical and recent pickups. Search and filters are saved.
 
+The farming summary shows souls observed in the current reader session, the number of affected pets and the latest pickup. Expanded cards keep previous-session gains labeled separately. These totals cover observed pickups, not a full play-session history or souls earned while the reader was disconnected.
+
 A soul gain without a known baseline cannot establish a reliable total. Check the reader status if cards show unknown progress or wait for a fresh character login. Pet progress is shared between characters on the same server, not across different servers. Spawn dots are farming references; regional fallbacks are less precise and labeled as such.
 
 ## Claimed and completed objectives
@@ -85,8 +87,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.1, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.1; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.2, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.2; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
