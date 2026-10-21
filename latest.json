@@ -1,11 +1,11 @@
 {
-  "version": "0.2.13",
+  "version": "0.3.0",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.2.13/Waymark-0.2.13-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzhsR3IwSkZGaVVhZmEwWlhLTG9uUVpkVkREakFEdlRMYjVzZXhPL2psOC9CUHJRd1A3MzNtemUzVUR1WVNzNzFJdVN2djFMTDBCTzV1cms0ZTE3S3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU3MTMwCWZpbGU6V2F5bWFya18wLjIuMTNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMi4xMwpRdlQzTk94bFFHcml6YmhaaXB4UDM3V1htbm5McU1mWU1YTU9MM3FhQmtSU1NidmZqWkJkMTV6NTV0WGZIM0lJMXl4bFRhOGZlazNXazFQSkxCVWpBZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzIyVm9DeC84SkkzU1UwTWFJamMyV0lTazlpc3JLWjNSWjRzVGs0NXlMT0J6cm9SMkYweTBYb2pCMTlHY0w4eTk2TXdQbnlwQlpxYkZkeHRnWmZteGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTU5MjI4CWZpbGU6V2F5bWFya18wLjMuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjAKd3ZET3NKZ0hDcXc0Vmw5c05zd2JvN0s4QnpyVk9hMXkyTS84WENBQTdwWDIzYkt1OEl6L0R1d0FxYnU2UGxZZzdycUhueEhlS0tyalpVZ1djR2JRQXc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.0/Waymark-0.3.0-Setup.exe"
     }
   },
-  "pub_date": "2026-10-21T04:36:35Z",
-  "notes": "# Waymark 0.2.13\r\n\r\n- Fixed the first-run setup layout and floating minimap checkbox. Both setup actions now retain your choice.\r\n- Turning off the minimap in Settings closes it immediately and keeps it off on the next launch. Re-enabling it no longer conflicts with an older saved window layout.\r\n- Native minimap closes also update the saved visibility preference. Position, zoom, lock, Follow, layers, pins and routes remain persistent.\r\n- Replaced all 122 Verteron and Altgard kibelisk labels with English names. Marker IDs and positions are unchanged, preserving saved routes and progress.\r\n\r\nThis build also includes the compact pet cards, live soul progress bars, automatic tier advancement and recent-pickup sorting introduced in 0.2.12.\r\n"
+  "pub_date": "2026-10-21T05:08:18Z",
+  "notes": "# Waymark 0.3.0 preview\r\n\r\nA coordinated interface refresh for the desktop companion, inspired by AION 2’s map and menu styling.\r\n\r\n- Dark slate panels, ivory headings and restrained gold accents throughout the app and floating minimap.\r\n- More room for the map, quieter toolbars and a consistent desktop navigation rail at smaller window sizes.\r\n- Compact, equal-size pet cards with clearer progress and expandable farming details. Completed pets show a full progress bar.\r\n- Settings split into General, Updates, Data & backups, Connection and Advanced. The selected section is remembered; backup tools appear before progress reset.\r\n- Clearable search fields, helpful loading and empty states, saved inventory filters and improved keyboard focus in dialogs.\r\n- New workspaces start with feathers, travel, dungeons and strongholds enabled. Existing layer choices, follow settings, minimap placement, routes, pins and progress are preserved.\r\n- One Abyss entry in map selectors; the detected internal layer is retained.\r\n\r\nThis is a preview release. Live tracking and collection-reader coverage are unchanged; this release does not make new claims about automatic completion detection or Abyss validation.\r\n"
 }
