@@ -6,7 +6,7 @@ This page is the current product boundary. Older feasibility, validation and reu
 | --- | --- | --- |
 | Player location | Local visual terrain matching, glowing live/last-known dot | Needs visible supported game terrain; continuous movement, custom HUDs, interiors and real Abyss/Timespace transitions are not fully validated. No production packet-coordinate decoder. |
 | Character | Passive Global Steam login identity and profile switching | Start Waymark before world entry. A reader restart or missed login needs a fresh world-entry identity; a saved profile is not proof of the current character. |
-| Pets | Server-shared observations, live supported soul gains, tier progress, farming summary | Missing entries stay unknown. Session totals include observed pickups only. Reference spawns are not live monsters or verified altitude. |
+| Pets | Server-shared observations, live supported soul gains, tier progress, farming summary, selected-card verification | Missing ranks stay unknown until verified. English selected cards can reconcile levels and counts while the game is focused; unopened cards are not scanned. Session totals include observed pickups only. Reference spawns are not live monsters or verified altitude. |
 | Feathers | Positive checked-feather recognition on supported Verteron world-map views | The game must display claimed icons; absence never proves collection. Altgard/Abyss automatic claims remain unsupported. |
 | Dungeons / strongholds | Manual marks and separate first-clear/reset/reward evidence model | Automatic game decoders are not enabled. Clearing and reward claiming are distinct. No guessed reset schedule. |
 | Kibelisks / cubes | Reference markers and manual planning | Automatic activation/collection tracking is not implemented. |
