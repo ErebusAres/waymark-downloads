@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.5](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.5/Waymark-0.3.5-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.6](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.6/Waymark-0.3.6-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.5-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.6-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -93,8 +93,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.5, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.5; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.6, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.6; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
@@ -106,3 +106,7 @@ Open **Settings → Appearance** to change player markers and glow, last known p
 ## Verify a pet’s current level
 
 If a pet stays unknown or its level looks stale, open its card in the game and leave the game focused for a few seconds. Waymark checks the selected tile and Pet Insight panel before updating its level and soul count. This currently supports the English pet screen and Windows’ built-in OCR. The game session must already be identified; unopened cards are not scanned.
+
+## Estimated pet progress
+
+Pets with missing starting levels show an estimated count from zero. Observed pickups advance at 5 souls for Lv.1, another 25 for Lv.2, and another 75 for Lv.3. Estimates are labeled and replaced by confirmed game readings. An estimated Lv.3 does not count as confirmed completion or hide its map marker.
