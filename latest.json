@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-10-21T14:46:57Z",
-  "version": "0.3.4",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzI2NEE2S05GWFNyVk8zeDFQanZOU2tGVUZka1lGWXVxekg4NEl3elIvTkZkWkNqTkNvdHk0Zy9kSFhGNUowVkZOVndhdGNCREtuaHU3MWwrZmFZaXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTkzOTI2CWZpbGU6V2F5bWFya18wLjMuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjQKQnhiM2swQWVNRWFYZHA0L05hTlBMMmFSNTk4U0dGQ3htTHRPbHpmZE5jZUhMQytxUVF2a29RY21CV2VPYm15UloyM0JzV29aVmY0T3lpSll1OHV5RFE9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.4/Waymark-0.3.4-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzQyaUtKREdTVVQ2YVAvMWFGN1ovblpBRjJVRE90RXJvOERUTVpWb1M0T3pVbkVlWGZ0eUFCMkxwU3lGMEQ2TGtBZHIzV1NGUnhsVXRPL09WTXNhTkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjM5MjUxCWZpbGU6V2F5bWFya18wLjMuNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjUKTG9TNVlDUVpzQlRJL1NiUG1XVVZDVHRpamtScERiaGR5TmtxdnQ5Y2VKUEJsOHdNNUdoZ1ZSUUM0RllQWHd5dVB3eWFaMDFWVldRS0lZbGF3SE90RHc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.5/Waymark-0.3.5-Setup.exe"
     }
   },
-  "notes": "## Custom colors\r\n\r\nSettings → Appearance now includes color pickers and hex values for the player marker and glow, last known position, pet ranks, resources, feathers, teleport locations, dungeons, strongholds, custom pins and routes.\r\n\r\nColors save automatically and apply to the main map, floating minimap and pet cards. Each color has its own reset; Reset all colors restores the original palette without changing other settings or collection progress.\r\n\r\nOriginal game icons remain visible, with custom map colors applied as marker accents.\r\n"
+  "pub_date": "2026-10-22T03:23:05Z",
+  "notes": "## Live pet progress fixes\r\n\r\n- Soul pickups continue to count when a pet’s level is missing. The card distinguishes observed souls from a verified rank.\r\n- Open a pet’s in-game card with the game focused for a few seconds to reconcile its current level and soul count automatically, without restarting Waymark.\r\n- The reader checks the detail panel against the selected tile across repeated frames. Previewing a higher rank does not upgrade the tracked pet.\r\n- Verified card readings preserve farming history and apply only to the detected character’s server. Later soul pickups continue from that count.\r\n\r\nCard verification currently supports the English pet screen and requires Windows’ built-in OCR and a detected game session. It does not scan unopened cards or recover every missed pickup in the background. Existing colors, settings and saved progress are preserved.\r\n",
+  "version": "0.3.5"
 }
