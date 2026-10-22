@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.6](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.6/Waymark-0.3.6-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.7](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.7/Waymark-0.3.7-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.6-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.7-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -93,8 +93,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.6, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.6; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.7, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.7; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
@@ -110,3 +110,7 @@ If a pet stays unknown or its level looks stale, open its card in the game and l
 ## Estimated pet progress
 
 Pets with missing starting levels show an estimated count from zero. Observed pickups advance at 5 souls for Lv.1, another 25 for Lv.2, and another 75 for Lv.3. Estimates are labeled and replaced by confirmed game readings. An estimated Lv.3 does not count as confirmed completion or hide its map marker.
+
+## If the automatic reader stops updating
+
+Update to 0.3.7 for bounded packet reassembly, automatic stalled-worker replacement and canonical access to moved data folders. A restarted reader needs a fresh character entry to identify the session; when safe, return to character selection and enter once. Saved progress remains available while waiting. Pickups missed during a capture gap are not invented; supported login readings resync the available counts.
