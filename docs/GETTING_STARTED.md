@@ -49,9 +49,11 @@ Routes are map guidance between reference points, not terrain-aware navigation. 
 
 Use **Minimap** on the Map page or **Settings → General → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
 
-The minimap starts near the player at the closest zoom tier. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. Lock enables click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
+The minimap starts near the player at the closest zoom tier. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. In the Windows app, select the **padlock between the zoom control and ×** to lock the minimap and enable click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
 
 The default position is 45 pixels from the primary monitor's top-left corner. Position, zoom and lock are remembered. The minimap stays on top and follows the same enabled objective layers as the main map.
+
+The [screenshot gallery](SCREENSHOTS.md#overlays) shows the current minimap frame. Browser-preview captures omit its Windows-only lock control; the installed app retains it.
 
 ## Pets and soul progress
 
@@ -61,7 +63,7 @@ Closest to complete puts the highest unfinished tier first, then the most points
 
 The farming summary shows souls observed in the current reader session, the number of affected pets and the latest pickup. Select a pet card to open its farming details, including previous-session gains. The card grid stays the same size. These totals cover observed pickups, not a full play-session history or souls earned while the reader was disconnected.
 
-A soul gain without a known baseline cannot establish a reliable total. Check the reader status if cards show unknown progress or wait for a fresh character login. Pet progress is shared between characters on the same server, not across different servers. Spawn dots are farming references; regional fallbacks are less precise and labeled as such.
+Without a confirmed baseline, pickups build a clearly labeled estimate from zero. Confirm the current level by opening its in-game card, or let a supported fresh login reading replace the estimate. Check the reader status if pickups stop updating. Pet progress is shared between characters on the same server, not across different servers. Spawn dots are farming references; regional fallbacks are less precise and labeled as such.
 
 ## Claimed and completed objectives
 
@@ -95,6 +97,7 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
+| Minimap cannot be moved or clicked | Press **Ctrl+Shift+G** to unlock click-through, then drag its header |
 | Minimap appears unexpectedly | Update to 0.4.0, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
 | Teleport names are not English | Update to 0.4.0; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |

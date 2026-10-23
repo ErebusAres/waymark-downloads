@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.4.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.0) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.4.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.0) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -36,6 +36,10 @@ The 0.4.0 remaster puts navigation in one compact header and gives terrain the f
 ![Waymark settings with a dedicated navigation list](docs/images/settings.jpg)
 
 ![Waymark floating minimap at its closest zoom](docs/images/minimap.jpg)
+
+The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. This browser-preview image omits the Windows-only lock button.
+
+[See every page and feature example in the 0.4.0 screenshot gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
 
 ## Start playing
 
