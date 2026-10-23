@@ -81,7 +81,7 @@ This repository contains public downloads and documentation. Application source 
 
 Waymark 0.5.0 adds a public website with player search, character collections, downloads and installation guides. Select **View online** beside the active character, or **Settings → Website & sync → Connect account**. Sign in and approve the installation code once. No game password is requested.
 
-Connected installations attempt sync every 30 seconds. Public pages show character name, region, server, faction, pet observations and marked collection totals. Search accepts **Name[SER] Server**, a name and separate server filter, or a name prefix. The directory includes only synced visible Waymark profiles. Upload time and game observation time are shown separately; a recent sync does not prove a character is online.
+Connected installations attempt sync every 30 seconds. Public pages show character name, region, server, faction, pet observations and marked collection totals. Search accepts **Jilara[NEZ]**, a name and separate server filter, or a name prefix. Searching a name alone includes matches across servers, labeled Jilara[NEZ], Jilara[ZIK], and so on. The directory includes only synced visible Waymark profiles. Upload time and game observation time are shown separately; a recent sync does not prove a character is online.
 
 Settings, routes, custom pins and window layouts are saved privately to the account. The site keeps five changed saves per device, downloadable as JSON. Automatic restore is not included. Exact live positions, inventory, captures and credentials are not uploaded. Manage profile visibility and connected devices in **My characters**. Usage totals are cumulative and do not count the same installation report repeatedly.
 
