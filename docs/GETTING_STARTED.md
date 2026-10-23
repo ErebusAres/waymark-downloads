@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.8](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.8/Waymark-0.3.8-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.4.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.8-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.4.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -36,8 +36,10 @@ Missing observations remain unknown. Selecting a planning profile manually does 
 | Shift-click | Add a custom pin and give it a name |
 | Ctrl-click | Set the route start |
 | Circuit | Build a circuit from the enabled, unfinished objectives |
-| Group | Combine nearby markers when zoomed out; off by default |
-| Map layers | Show or hide categories, custom pins and individual resource types |
+| Display → Group | Combine nearby markers when zoomed out; off by default |
+| Layers panel | Show or hide categories, custom pins and individual resource types |
+
+Use **Panel** to show or hide the floating map panel. **Layers** controls visibility; **Locations** shows search results. Searching switches to Locations automatically, and your panel choice is remembered. **Display** contains grouping and terrain controls.
 
 Open the in-game world map briefly to help the visual reader acquire your position. Verified terrain matching covers Verteron and Altgard; Abyss and cross-faction transitions need further live validation. A glowing teal dot indicates a live fix. The larger amber marker is the last-known location, not a current reading. Direction is not inferred from that dot.
 
@@ -45,7 +47,7 @@ Routes are map guidance between reference points, not terrain-aware navigation. 
 
 ## Floating minimap
 
-Use **Minimap** on Explore or **Settings → General → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
+Use **Minimap** on the Map page or **Settings → General → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
 
 The minimap starts near the player at the closest zoom tier. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. Lock enables click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
 
@@ -57,7 +59,7 @@ The Pets page shows portraits, farming references and the latest observed level 
 
 Closest to complete puts the highest unfinished tier first, then the most points within that tier. Completed level 3 pets remain at the bottom. Use the sort icon to cycle through closest, least progress, alphabetical and recent pickups. Search and filters are saved.
 
-The farming summary shows souls observed in the current reader session, the number of affected pets and the latest pickup. Expanded cards keep previous-session gains labeled separately. These totals cover observed pickups, not a full play-session history or souls earned while the reader was disconnected.
+The farming summary shows souls observed in the current reader session, the number of affected pets and the latest pickup. Select a pet card to open its farming details, including previous-session gains. The card grid stays the same size. These totals cover observed pickups, not a full play-session history or souls earned while the reader was disconnected.
 
 A soul gain without a known baseline cannot establish a reliable total. Check the reader status if cards show unknown progress or wait for a fresh character login. Pet progress is shared between characters on the same server, not across different servers. Spawn dots are farming references; regional fallbacks are less precise and labeled as such.
 
@@ -93,8 +95,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.8, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.8; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.4.0, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.4.0; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
@@ -113,7 +115,7 @@ Pets with missing starting levels show an estimated count from zero. Observed pi
 
 ## If the automatic reader stops updating
 
-Update to 0.3.8 for bounded packet reassembly, automatic stalled-worker replacement and canonical access to moved data folders. A restarted reader needs a fresh character entry to identify the session; when safe, return to character selection and enter once. Saved progress remains available while waiting. Pickups missed during a capture gap are not invented; supported login readings resync the available counts.
+Update to 0.4.0 for bounded packet reassembly, automatic stalled-worker replacement and canonical access to moved data folders. A restarted reader needs a fresh character entry to identify the session; when safe, return to character selection and enter once. Saved progress remains available while waiting. Pickups missed during a capture gap are not invented; supported login readings resync the available counts.
 
 ## Usage statistics
 

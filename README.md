@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.3.8 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.8/Waymark-0.3.8-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.3.8) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.4.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.0) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -31,13 +31,15 @@ Missing starting levels use clearly labeled estimates from zero. Pickups advance
 
 ## A cleaner desktop workspace
 
-The 0.3.0 refresh gives maps and pet cards more room, keeps controls consistent, and separates everyday settings from capture and calibration tools. Settings now has General, Appearance, Updates, Data & backups, Connection and Advanced sections.
+The 0.4.0 remaster puts navigation in one compact header and gives terrain the full map workspace. Floating Layers and Locations panels keep filters and search within reach. Pet cards stay the same size; farming details open separately. Settings groups everyday preferences, appearance, updates, backups, statistics and connection tools into clear sections. Hover or focus a control for an explanation when you need one.
 
 ![Waymark settings with a dedicated navigation list](docs/images/settings.jpg)
 
+![Waymark floating minimap at its closest zoom](docs/images/minimap.jpg)
+
 ## Start playing
 
-1. Download and run **Waymark-0.3.8-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.4.0-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
