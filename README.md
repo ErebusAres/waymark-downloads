@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.4.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.0) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.4.1 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.1/Waymark-0.4.1-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.1) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -35,7 +35,9 @@ The 0.4.0 remaster puts navigation in one compact header and gives terrain the f
 
 ![Waymark settings with a dedicated navigation list](docs/images/settings.jpg)
 
-![Waymark floating minimap at its closest zoom](docs/images/minimap.jpg)
+![Waymark 0.4.1 minimap showing Eastern Cantas Valley at close zoom](docs/images/minimap-pets-0.4.1.png)
+
+In 0.4.1, the minimap title shows the detected region, retains a recent last-known region for up to 30 seconds, then reads **Unavailable**. Long names truncate with an ellipsis; hover to see the full name. All three zoom tiers are closer, with your saved tier choice preserved. A foldable **Recent souls** strip shows the latest three pets with portrait progress rings, rank colors and a brief completion effect before confirmed max-level pets leave the strip. Your fold preference is saved.
 
 The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. This browser-preview image omits the Windows-only lock button.
 
@@ -43,7 +45,7 @@ The Windows minimap keeps its **padlock button beside the zoom control**. Lock i
 
 ## Start playing
 
-1. Download and run **Waymark-0.4.0-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.4.1-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.

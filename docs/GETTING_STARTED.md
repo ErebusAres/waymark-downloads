@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.4.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.0/Waymark-0.4.0-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.4.1](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.1/Waymark-0.4.1-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.4.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.4.1-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -49,11 +49,15 @@ Routes are map guidance between reference points, not terrain-aware navigation. 
 
 Use **Minimap** on the Map page or **Settings → General → Show floating minimap**. Turning the setting off closes the minimap immediately and remembers the choice for the next launch.
 
-The minimap starts near the player at the closest zoom tier. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. In the Windows app, select the **padlock between the zoom control and ×** to lock the minimap and enable click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
+The minimap title follows the region containing your detected position. A last-known region remains visible for up to 30 seconds without a usable fix; after that, or when no mapped region is known, it reads **Unavailable**. Long names truncate, with the full name on hover. Dungeon-entry detection is not added by this behavior: an unreadable interior causes the last outdoor fix to expire.
+
+The minimap starts near the player at the closest zoom tier. Version 0.4.1 tightens all three tiers to 360, 720 and 1,280 map units across, while retaining your saved tier selection. Drag its header to move it. Use the tier button to cycle three zoom levels, or the scroll wheel while unlocked. In the Windows app, select the **padlock between the zoom control and ×** to lock the minimap and enable click-through so clicks reach the game beneath it. **Ctrl+Shift+G** unlocks the overlay. If another app owns that shortcut, Waymark keeps click-through off.
 
 The default position is 45 pixels from the primary monitor's top-left corner. Position, zoom and lock are remembered. The minimap stays on top and follows the same enabled objective layers as the main map.
 
 The [screenshot gallery](SCREENSHOTS.md#overlays) shows the current minimap frame. Browser-preview captures omit its Windows-only lock control; the installed app retains it.
+
+**Recent souls** below the minimap shows the latest three pets with observed pickups, independent of the map’s pet-marker filter. Portrait rings fill toward the next rank and use your custom pet-rank colors. A newly confirmed Lv.3 briefly glows with a checkmark, then leaves the strip; estimated maximum ranks remain until confirmed. Select the strip’s header to fold or unfold it. This preference saves automatically, and the Windows overlay grows downward to keep the map view the same size. Unlock click-through before using the fold control.
 
 ## Pets and soul progress
 
