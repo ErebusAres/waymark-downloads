@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.4.2](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.2/Waymark-0.4.2-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.0/Waymark-0.5.0-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.4.2-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -83,7 +83,7 @@ Update preferences are saved in Settings. **Launch at startup** controls the cur
 
 ## Updates
 
-**Check on launch** is enabled by default. In **Settings → Updates**, choose whether Waymark should download or install automatically. Manual installation is also available after a verified download. The app displays download progress and an installing message, then restarts when complete. From 0.4.2, **Install updates automatically** applies to both launch checks and manual checks: a found update downloads, verifies, installs and restarts. It also installs an already verified download. With automatic installation off, automatic downloading stops at ready to install. Local build folders still use manual installation.
+**Check on launch** is enabled by default. In **Settings → Updates**, choose whether Waymark should download or install automatically. Manual installation is also available after a verified download. The app displays download progress and an installing message, then restarts when complete. From 0.5.0, **Install updates automatically** applies to both launch checks and manual checks: a found update downloads, verifies, installs and restarts. It also installs an already verified download. With automatic installation off, automatic downloading stops at ready to install. Local build folders still use manual installation.
 
 When updating from 0.4.0 or 0.4.1, click **Install and restart** once to apply this correction. Future manual checks then honor the saved automatic-install preference.
 
@@ -129,3 +129,7 @@ Update to 0.4.0 for bounded packet reassembly, automatic stalled-worker replacem
 ## Usage statistics
 
 Open **Settings → Statistics** for automatic counters since tracking began. **Copy summary** prepares counts for sharing. **Export reporting JSON** saves cumulative counters, an installation ID and hashed character identities for future combined reporting. Historical farming is not reconstructed. The future site can combine repeated reports without adding the same totals again; no reporting service is configured yet.
+
+## View your character online
+
+Use **View online** beside the character selector, or **Settings → Website & sync → Connect account**. Approve the code on the website once. The app syncs progress automatically while running. You can hide profiles, disconnect devices and download private workspace snapshots from [My characters](https://waymark-aion2.erebusares.chatgpt.site/account). [Full setup instructions](https://waymark-aion2.erebusares.chatgpt.site/help/sync).

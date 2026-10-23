@@ -4,7 +4,9 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.4.2 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.2/Waymark-0.4.2-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.2) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.0/Waymark-0.5.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.0) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+
+[**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -35,17 +37,17 @@ The 0.4.0 remaster puts navigation in one compact header and gives terrain the f
 
 ![Waymark settings with a dedicated navigation list](docs/images/settings.jpg)
 
-![Waymark 0.4.1 minimap showing Eastern Cantas Valley at close zoom](docs/images/minimap-pets-0.4.1.png)
+![Waymark minimap in Ellun River Marsh with Windows lock control and recent souls](docs/images/minimap-windows.png)
 
 In 0.4.1, the minimap title shows the detected region, retains a recent last-known region for up to 30 seconds, then reads **Unavailable**. Long names truncate with an ellipsis; hover to see the full name. All three zoom tiers are closer, with your saved tier choice preserved. A foldable **Recent souls** strip shows the latest three pets with portrait progress rings, rank colors and a brief completion effect before confirmed max-level pets leave the strip. Your fold preference is saved.
 
-The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. This browser-preview image omits the Windows-only lock button.
+The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. The image above shows the Windows lock control and recent-souls tracker.
 
 [See every page and feature example in the 0.4.0 screenshot gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
 
 ## Start playing
 
-1. Download and run **Waymark-0.4.2-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.0-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -74,3 +76,15 @@ Character observations, progress, pins, routes and settings are stored locally. 
 [Report a problem or request a feature](https://github.com/ErebusAres/waymark-downloads/issues). Include the Waymark version, map, steps to reproduce and a screenshot if useful. Settings → Connection can review/copy or save a diagnostic report with status codes and counts, excluding names, IDs, locations, paths and packet data. See [detection coverage](docs/DETECTION_COVERAGE.md). Keep login details and packet captures out of public issues.
 
 This repository contains public downloads and documentation. Application source is maintained separately. Waymark is an independent project and is not affiliated with NCSOFT. AION 2 names and game artwork belong to their respective owners; bundled attribution accompanies the app.
+
+## Your character, online
+
+Waymark 0.5.0 adds a public website with player search, character collections, downloads and installation guides. Select **View online** beside the active character, or **Settings → Website & sync → Connect account**. Sign in and approve the installation code once. No game password is requested.
+
+Connected installations attempt sync every 30 seconds. Public pages show character name, region, server, faction, pet observations and marked collection totals. Search accepts **Name[SER] Server**, a name and separate server filter, or a name prefix. The directory includes only synced visible Waymark profiles. Upload time and game observation time are shown separately; a recent sync does not prove a character is online.
+
+Settings, routes, custom pins and window layouts are saved privately to the account. The site keeps five changed saves per device, downloadable as JSON. Automatic restore is not included. Exact live positions, inventory, captures and credentials are not uploaded. Manage profile visibility and connected devices in **My characters**. Usage totals are cumulative and do not count the same installation report repeatedly.
+
+These are app-synced observations, not official game records or independent ownership verification. [Read the data policy](https://waymark-aion2.erebusares.chatgpt.site/privacy).
+
+[View website screenshots and setup overview](docs/WEBSITE.md).
