@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.3.7 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.7/Waymark-0.3.7-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.3.7) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.3.8 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.8/Waymark-0.3.8-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.3.8) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -37,7 +37,7 @@ The 0.3.0 refresh gives maps and pet cards more room, keeps controls consistent,
 
 ## Start playing
 
-1. Download and run **Waymark-0.3.7-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.3.8-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -50,6 +50,10 @@ See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update se
 Waymark is under active development. Visual position tracking is verified in Verteron and Altgard. Abyss tracking and cross-faction transitions still need live validation. Position comes from visible game terrain; a last-known marker remains visible when a fresh fix is unavailable.
 
 Resource and pet spawn markers are reference locations, not a live spawn-availability feed. Routes connect map objectives; they do not calculate a walkable path around terrain. Automatic claimed-feather recognition is limited to supported Verteron map views. Dungeon and stronghold completion, including reset-period rewards, is not yet fully detected automatically; use manual collection controls where needed. Inventory and other character information depend on the fields the reader can currently observe.
+
+## Usage statistics
+
+Settings → Statistics shows characters seen, app and connected time, observed souls, pets leveled, rank-ups, pets maxed and app launches. Counters save automatically from this version onward. Copy a counts-only summary or export cumulative reporting JSON for future combined totals. A reporting service is not connected yet; statistics currently stay local. [How the counters work](docs/USAGE_STATISTICS.md).
 
 ## Updates and local data
 

@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.3.7](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.7/Waymark-0.3.7-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.3.8](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.8/Waymark-0.3.8-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.3.7-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.3.8-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -93,8 +93,8 @@ Data is stored in **%LOCALAPPDATA%\AionCompanion** unless a custom data director
 | --- | --- |
 | No character or pet updates | Npcap compatibility option, one supported game client, other readers closed, then enter a character after starting Waymark |
 | Position unavailable | Correct map, visible in-game map/minimap terrain, reader diagnostics; last-known is not a fresh fix |
-| Minimap appears unexpectedly | Update to 0.3.7, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
-| Teleport names are not English | Update to 0.3.7; all Verteron and Altgard kibelisk labels were replaced |
+| Minimap appears unexpectedly | Update to 0.3.8, turn off **Show floating minimap**, then relaunch to confirm the saved preference |
+| Teleport names are not English | Update to 0.3.8; all Verteron and Altgard kibelisk labels were replaced |
 | App cannot check online updates | Check the selected update source and connection; the current installer is always on the Releases page |
 
 For a report, include the app version, map, steps and relevant status text. Crop private information from screenshots. Do not attach game login details, databases or packet captures to a public issue.
@@ -113,4 +113,8 @@ Pets with missing starting levels show an estimated count from zero. Observed pi
 
 ## If the automatic reader stops updating
 
-Update to 0.3.7 for bounded packet reassembly, automatic stalled-worker replacement and canonical access to moved data folders. A restarted reader needs a fresh character entry to identify the session; when safe, return to character selection and enter once. Saved progress remains available while waiting. Pickups missed during a capture gap are not invented; supported login readings resync the available counts.
+Update to 0.3.8 for bounded packet reassembly, automatic stalled-worker replacement and canonical access to moved data folders. A restarted reader needs a fresh character entry to identify the session; when safe, return to character selection and enter once. Saved progress remains available while waiting. Pickups missed during a capture gap are not invented; supported login readings resync the available counts.
+
+## Usage statistics
+
+Open **Settings → Statistics** for automatic counters since tracking began. **Copy summary** prepares counts for sharing. **Export reporting JSON** saves cumulative counters, an installation ID and hashed character identities for future combined reporting. Historical farming is not reconstructed. The future site can combine repeated reports without adding the same totals again; no reporting service is configured yet.
