@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.4.1 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.1/Waymark-0.4.1-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.1) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.4.2 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.2/Waymark-0.4.2-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.2) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -45,7 +45,7 @@ The Windows minimap keeps its **padlock button beside the zoom control**. Lock i
 
 ## Start playing
 
-1. Download and run **Waymark-0.4.1-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.4.2-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -65,7 +65,7 @@ Settings → Statistics shows characters seen, app and connected time, observed 
 
 ## Updates and local data
 
-Waymark checks for updates on launch by default. Download and automatic installation preferences are available in **Settings → Updates**. Downloads show progress; installing an update restarts the app. The built-in updater verifies release signatures before installation.
+Waymark checks for updates on launch by default. Download and automatic installation preferences are available in **Settings → Updates**. From 0.4.2, automatic download and installation preferences apply both on launch and when you select **Check for updates**. Downloads show progress; installing an update restarts the app. The built-in updater verifies release signatures before installation.
 
 Character observations, progress, pins, routes and settings are stored locally. Waymark does not ask for your game password, control your character or inject code into the game. Research recordings are explicit local captures, not automatic uploads. Use **Settings → Data & backups** before moving or resetting data.
 

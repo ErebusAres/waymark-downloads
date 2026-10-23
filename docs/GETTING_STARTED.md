@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.4.1](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.1/Waymark-0.4.1-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.4.2](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.2/Waymark-0.4.2-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.4.1-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.4.2-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -83,7 +83,9 @@ Update preferences are saved in Settings. **Launch at startup** controls the cur
 
 ## Updates
 
-**Check on launch** is enabled by default. In **Settings → Updates**, choose whether Waymark should download or install automatically. Manual installation is also available after a verified download. The app displays download progress and an installing message, then restarts when complete.
+**Check on launch** is enabled by default. In **Settings → Updates**, choose whether Waymark should download or install automatically. Manual installation is also available after a verified download. The app displays download progress and an installing message, then restarts when complete. From 0.4.2, **Install updates automatically** applies to both launch checks and manual checks: a found update downloads, verifies, installs and restarts. It also installs an already verified download. With automatic installation off, automatic downloading stops at ready to install. Local build folders still use manual installation.
+
+When updating from 0.4.0 or 0.4.1, click **Install and restart** once to apply this correction. Future manual checks then honor the saved automatic-install preference.
 
 GitHub releases are the public update source. Local build support remains available in Settings. Automatic updates preserve the workspace and create recovery backups. A full backup is still useful before moving machines or making a large reset. If preparation or installer startup fails, the verified download remains available for retry until the app closes and normal worker operation resumes. A restarted reader may need fresh character login evidence. If Windows installation itself was interrupted, rerun a working Setup build and use Data & backups to review a recovery archive if needed; automatic rollback after installation begins is not implemented.
 
