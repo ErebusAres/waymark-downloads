@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.5.1\r\n\r\n- Added 1,124 Aion Dex reference spawn positions across 62 pet/NPC/map links, matched by numeric NPC ID. Existing higher-precision coordinates are kept when sources agree.\r\n- Pet markers now identify compact farming pockets instead of a single broad regional anchor. Each center is an actual spawn reference; saved regional route IDs continue to resolve to the largest mapped pocket in that area.\r\n- Default map and minimap presentation uses pocket centers and selected-group outlines. Display → Spawn dots restores individual positions and remembers the choice.\r\n- Selected farming areas show group size, source and review date. Static density is not a measured farming-rate recommendation; live mobs, altitude and respawn are not inferred.\r\n",
-  "pub_date": "2026-10-23T20:38:51Z",
+  "pub_date": "2026-10-23T21:16:18Z",
+  "notes": "# Waymark 0.5.2\r\n\r\n- Reduce minimap traffic by excluding unused regional outlines and sending individual spawn positions only when Spawn dots is enabled.\r\n- Avoid rebuilding pet marker data when the observed pet snapshot has not changed. Cache map grouping and skip drawing markers outside the current map view.\r\n- Give the background reader lower scheduling priority than the foreground game. Add an adaptive pause after terrain matching so expensive visual scans leave more CPU time for play; packet-based soul collection remains independent.\r\n- Preserve the farming pockets, location data, filters, saved preferences and player glow from the previous build.\r\n",
+  "version": "0.5.2",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6R3lGaXBOYllGUTRiYjNpTExDYUIyNVN3ajNnSlRtSlNhN05vVlZBQlVGVHRKTDdrNVAzMThXSlNpaExVUyt4c2Y2cThzYk5hdHVFa3EydkFvMjhqdlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzg3ODMyCWZpbGU6V2F5bWFya18wLjUuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjEKSTNpVjFtQ21TNUhNWElnRDlzaVBLcmlLYjJNRDUxMFdaTmdWWktYL2hTbEJXMENRbWdIZTFnMHBtTlpPb3FBUkQvdnVrb042Q05uRFNrcElCaHVRQ0E9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.1/Waymark-0.5.1-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzlmY2JMblI3blNUcXRmTElpQUduT1puQ3NDaVpDMkxuUWpLS0NlQzB0Vk82L1hscmtFUmNiT2FMaDRpTzhIMUtrSndhMnlabVgvR0UvdTFJelZ0S3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzkwMDc2CWZpbGU6V2F5bWFya18wLjUuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjIKTG4yTWs5THdPdHg3U3lUbzdlSGYrVXg5MnozbnFIZ0xQRWJXTm8rQkZWZG0yU2hVODBSWStBNE1DUkxUQ25WME5FV3dxVkxTR0pYckxGb3R0OHRQQnc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.2/Waymark-0.5.2-Setup.exe"
     }
-  },
-  "version": "0.5.1"
+  }
 }
