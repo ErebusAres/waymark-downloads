@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.0](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.0/Waymark-0.5.0-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.1](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.1/Waymark-0.5.1-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.0-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.1-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -36,6 +36,7 @@ Missing observations remain unknown. Selecting a planning profile manually does 
 | Shift-click | Add a custom pin and give it a name |
 | Ctrl-click | Set the route start |
 | Circuit | Build a circuit from the enabled, unfinished objectives |
+| Display → Spawn dots | Show individual pet spawn references instead of group outlines; off by default |
 | Display → Group | Combine nearby markers when zoomed out; off by default |
 | Layers panel | Show or hide categories, custom pins and individual resource types |
 

@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.0 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.0/Waymark-0.5.0-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.0) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.1 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.1/Waymark-0.5.1-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.1) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -45,9 +45,17 @@ The Windows minimap keeps its **padlock button beside the zoom control**. Lock i
 
 [See every page and feature example in the 0.4.0 screenshot gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
 
+## Find a farming pocket
+
+Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. **Display → Spawn dots** restores individual references; your choice is saved.
+
+![Fossa farming pockets and source details](docs/images/farming-pockets.png)
+
+These are static reference locations. A dense pocket can help you choose where to look, but does not establish the fastest farm or show live monster availability.
+
 ## Start playing
 
-1. Download and run **Waymark-0.5.0-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.1-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
