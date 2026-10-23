@@ -1,11 +1,11 @@
 {
+  "version": "0.5.0",
+  "pub_date": "2026-10-23T16:50:22Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.4.2/Waymark-0.4.2-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzNLZHN0clZ6T3B3djBHT1p1eVhOY1NUd1V0WjFVRkNCUE5xUXBNOXZQVHVwVktySVZNZWp1c3MrSkZSRTA0U09KTzVNNmQrRDBJaVU2TDU1N1N1U3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzY2NzI3CWZpbGU6V2F5bWFya18wLjQuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC40LjIKR3pYaTAzclRGRlIwR0puZWNJTGQzdG9PQzB1WDNFVlBmWTFzM1JML1ZQOWxVQkhiQnJWWks4OW1CdEhXMktab1hpaU0wR1IzRTRyVU9wVTB2b0dVQWc9PQo="
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.0/Waymark-0.5.0-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzFhSGNBUEh0MlI3QmZIZFNqbjlrcnAwcVY3aDRreHMyT21iVkVPK0psNDB5aUFOSU5TK2toUFpDZEJjdU14a1Z4cmpaQklGVFZDZDdJRTJYWVBTaUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzc0MTExCWZpbGU6V2F5bWFya18wLjUuMF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjAKendaUzh5T0I0ZWZOczhtVTVlanNLVVREWW5RMG9ja2VRbGhXcEVkdVVjbWRkRFJnZHljVWxwZFMrS0xHdnVBNWozcm5uVHRmMjIxUmNQak9WNHp6Q0E9PQo="
     }
   },
-  "notes": "# Waymark 0.4.2\r\n\r\nAutomatic update preferences now apply consistently to launch checks and **Check for updates** in Settings.\r\n\r\n- **Install updates automatically** downloads, verifies, installs and restarts after either kind of check, even if automatic download is switched off separately.\r\n- **Download updates automatically** downloads and verifies a found update after either kind of check. Installation stays manual when automatic installation is off.\r\n- An already downloaded and verified update installs without being downloaded again when automatic installation is enabled.\r\n- The launch notification’s Download button follows the same installation preference.\r\n\r\nDownloads still show progress, installation flushes pending workspace saves and creates a recovery backup, and invalid signatures prevent installation. Local build folders retain their manual installation flow. Both automatic options remain off by default. To get this correction from 0.4.0 or 0.4.1, select **Install and restart** once after downloading it; subsequent manual checks follow the saved automatic installation preference.\r\n",
-  "pub_date": "2026-10-23T14:46:33Z",
-  "version": "0.4.2"
+  "notes": "# Waymark 0.5.0\r\n\r\n- Public Waymark website with Windows downloads, Npcap installation instructions, help and player search.\r\n- View online opens your detected character page. Connect once using the website account to enable automatic sync.\r\n- Connected installations sync pet progress, collection totals and cumulative usage every 30 seconds, with bounded offline retry.\r\n- Private workspace snapshots keep settings, routes, custom pins and window layouts separate from public profiles. Manage devices and visibility on the website.\r\n- Pet farming locations now list your faction’s home region before alternative maps.\r\n\r\nAutomatic sync needs a one-time account link. Public pages contain app observations, not official account verification. No new in-game position or completion decoder is claimed. Cloud saves download as JSON; automatic restore is not included.\r\n"
 }
