@@ -1,11 +1,11 @@
 {
+  "pub_date": "2026-10-23T01:40:24Z",
+  "notes": "## Usage statistics\r\n\r\nSettings > Statistics now records characters seen, app session time, connected time, souls observed, distinct pets leveled, tracked rank-ups, pets maxed and app launches.\r\n\r\nCounters save automatically and survive updates and game-progress resets. Estimated pet levels, login baselines and duplicate pickup events do not inflate achievements. Time tracking continues in the background and excludes PC sleep on Windows.\r\n\r\nCopy a counts-only summary for sharing, or export cumulative reporting JSON for the future site. Reports use an installation ID and hashed character identities to support deduplication. A reporting service is not connected yet; statistics currently remain local. Tracking starts with this version and does not reconstruct past farming.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.7/Waymark-0.3.7-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzRPRnU2YUxpTndzQXIycW5OZjBYZ1h5S09HczRPVDdHSk9GOVcveURzM1ZCN3hkaS9iS0kzUFA4Q3BmZEIrKzQ5NmtxRi9xdm1IL0tFL1JxTlNwUmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzEyNjU5CWZpbGU6V2F5bWFya18wLjMuN194NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjcKdWo4K0FnYlFkOEV2RUJzUVdjamVJY2xzUmRDeU9vZlNJNEpWTUo5RkpwK2dhcW90MWc3THlyYWRGUHJENVY0dmkwRDBNQW5sZWdDQlpCYlZSTFl5Q1E9PQo="
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.3.8/Waymark-0.3.8-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzFsUDJ3N0VkRVI1UXhhc1gzWEdrbHdyTjBqRlJXY1R3eElKZ0Vld1c4YzRBUnd1bVNMNDRSbDREQTNjbXR4N1N5bmZoYXJwZFFqdWpiaWx2Q3hjZkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzE5NTQ0CWZpbGU6V2F5bWFya18wLjMuOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjgKUGMrM1ZxWGY0bExhaythK2p0eURWREdEVmhVVjNQVnBKWm4xWWkzbEhFMWRUTkx5UHB4aThrS3hlSThBMG1CUGN1VHR5d3VUS0dxQjE5QThNKzhMQVE9PQo="
     }
   },
-  "notes": "## Reader reliability\r\n\r\n- Pending TCP segments and unresolved gaps are bounded so packet reassembly cannot grow indefinitely during long sessions.\r\n- Capture batches yield regularly to status updates, connection discovery and stop commands.\r\n- A watchdog exits a reader that makes no progress for 30 seconds. The app replaces the worker automatically.\r\n- Data folders are resolved to their canonical location before opening SQLite, including folders moved through Windows junctions.\r\n\r\nA stream with missing data is invalidated rather than guessing packet contents or keeping an unverified identity. After a reader replacement, enter your character again when safe so Waymark can identify the session and resync supported pet observations. Previously saved progress and settings remain intact; pickups missed during a capture gap are not invented.\r\n",
-  "version": "0.3.7",
-  "pub_date": "2026-10-22T23:45:39Z"
+  "version": "0.3.8"
 }
