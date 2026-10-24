@@ -22,3 +22,17 @@ Passive character/pet reading can run alongside NotMeter using independent Npcap
 Settings → Connection shows detailed local reader status. Review/copy or save a support report for status codes and counts without character/server IDs, names, maps, coordinates, paths, IPs, arbitrary error text or packets. Reports are never uploaded automatically. They summarize current detection; they do not recover missing observations or enable unsupported decoders.
 
 Manual completion and game evidence stay separate. Local backups preserve profiles, server pets, history, pins, routes and preferences; raw recordings are excluded.
+
+## Empyrean Trace completion
+
+Keep Waymark running, enter your character, then open the **Verteron world map**
+with completed/claimed traces enabled in the game's filters. Keep the game
+focused for two reader scans. Only checked trace icons actually visible in the
+current map view can be recognized; pan the map to check other areas.
+
+Version 0.5.6 fixes repeated checkmarks blocking new completions when returning
+to a map view. Existing evidence and other characters' progress are preserved.
+Look under **Settings > Connection > Tracking status > Detection coverage** for
+the current scan reason or a save retry. Collecting a trace without showing its
+checked map icon is not currently an automatic trigger. Altgard and Abyss trace
+completion are not supported yet.

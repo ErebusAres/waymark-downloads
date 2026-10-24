@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.5](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.5/Waymark-0.5.5-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.6](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.6/Waymark-0.5.6-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.5-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.6-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
