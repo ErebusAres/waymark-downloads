@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.6](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.6/Waymark-0.5.6-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.7](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.7/Waymark-0.5.7-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.6-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.7-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -74,7 +74,7 @@ Without a confirmed baseline, pickups build a clearly labeled estimate from zero
 
 Use Collections or an objective's details to mark progress manually. Bulk controls let you declare a category complete for the current character. Settings includes reset controls for that character; read the reset dialog to choose whether to clear manual marks alone or the wider recorded progress.
 
-Supported Verteron map views can recognize claimed-feather evidence. Automatic completion coverage is incomplete: do not assume sealed dungeon or stronghold first-clears and current reset-period rewards have all been read. Use manual controls for missing information. Unknown and unobserved states are not proof of completion.
+Supported Empyrean Trace achievement updates mark collections without an open game map. Enter your character once with Waymark running to restore supported previous completions. Checked Verteron map icons remain a fallback for other supported references. Automatic completion coverage is incomplete: do not assume sealed dungeon or stronghold first-clears and current reset-period rewards have all been read. Use manual controls for missing information. Unknown and unobserved states are not proof of completion.
 
 ## Saved preferences
 

@@ -7,7 +7,7 @@ This page is the current product boundary. Older feasibility, validation and reu
 | Player location | Local visual terrain matching, glowing live/last-known dot | Needs visible supported game terrain; continuous movement, custom HUDs, interiors and real Abyss/Timespace transitions are not fully validated. No production packet-coordinate decoder. |
 | Character | Passive Global Steam login identity and profile switching | Start Waymark before world entry. A reader restart or missed login needs a fresh world-entry identity; a saved profile is not proof of the current character. |
 | Pets | Server-shared observations, live supported soul gains, tier progress, farming summary, selected-card verification | Missing ranks use labeled zero-based estimates from observed pickups until verified. English selected cards can reconcile levels and counts while the game is focused; unopened cards are not scanned. Session totals include observed pickups only. Reference spawns are not live monsters or verified altitude. |
-| Feathers | Positive checked-feather recognition on supported Verteron world-map views | The game must display claimed icons; absence never proves collection. Altgard/Abyss automatic claims remain unsupported. |
+| Empyrean Traces | Character-bound pickup achievements and login restoration, with checked Verteron map icons as fallback | A fresh character entry is needed after reader restart. The reviewed catalog covers 544 Verteron, 547 Altgard and 190 Abyss references; ambiguous or missing matches remain excluded. |
 | Dungeons / strongholds | Manual marks and separate first-clear/reset/reward evidence model | Automatic game decoders are not enabled. Clearing and reward claiming are distinct. No guessed reset schedule. |
 | Kibelisks / cubes | Reference markers and manual planning | Automatic activation/collection tracking is not implemented. |
 | Kina / Odyle / points / inventory | Manual counters and material targets | Automatic current-client inventory, resource, stat and skill readers are not enabled. |
@@ -25,14 +25,18 @@ Manual completion and game evidence stay separate. Local backups preserve profil
 
 ## Empyrean Trace completion
 
-Keep Waymark running, enter your character, then open the **Verteron world map**
-with completed/claimed traces enabled in the game's filters. Keep the game
-focused for two reader scans. Only checked trace icons actually visible in the
-current map view can be recognized; pan the map to check other areas.
+After updating, keep Waymark running and enter your character once. Supported
+previously collected traces restore from the login data. New supported pickups
+then update the character's progress without opening the game map or waiting for
+a position match. The reader requires a verified character identity; selecting a
+saved profile inside Waymark is not a game connection.
 
-Version 0.5.6 fixes repeated checkmarks blocking new completions when returning
-to a map view. Existing evidence and other characters' progress are preserved.
-Look under **Settings > Connection > Tracking status > Detection coverage** for
-the current scan reason or a save retry. Collecting a trace without showing its
-checked map icon is not currently an automatic trigger. Altgard and Abyss trace
-completion are not supported yet.
+The reviewed game-ID crosswalk covers 544 Verteron, 547 Altgard and 190 Abyss
+reference locations. Ambiguous or missing catalog matches remain excluded so an
+adjacent trace is never completed by guesswork. For other supported Verteron
+references, the visual fallback still needs the world map focused with the game's
+completed/claimed trace display enabled. Manual marks remain available.
+
+Settings > Connection > Tracking status shows the latest login restoration or
+live trace update. Detection coverage also explains the visual fallback state.
+The upper Abyss reference sets do not yet have a reviewed achievement crosswalk.
