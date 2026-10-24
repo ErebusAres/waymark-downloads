@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.3](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.3/Waymark-0.5.3-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.4](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.4/Waymark-0.5.4-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.3-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.4-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -148,3 +148,7 @@ Open **Settings → Statistics** for automatic counters since tracking began. **
 Use **View online** beside the character selector, or **Settings → Website & sync → Connect account**. Approve the code on the website once. The app syncs progress automatically while running. You can hide profiles, disconnect devices and download private workspace snapshots from [My characters](https://waymark-aion2.erebusares.chatgpt.site/account). [Full setup instructions](https://waymark-aion2.erebusares.chatgpt.site/help/sync).
 
 ![Example of the exact suggested farming pocket selected on the map](images/map-target.png)
+
+### Automatic versus chosen farming targets
+
+From 0.5.4, automatic guidance continuously chooses the nearest eligible unfinished pet. Unfinished goals define the shortlist when present. Automatic suggestions are not saved as chosen targets. Click a goal name, Use as target in pet details, or Another to choose a pet explicitly; it remains selected across restarts. Select Auto to return to proximity-based guidance. Old automatic suggestions saved by 0.5.3 no longer act as pinned choices.
