@@ -146,3 +146,5 @@ Open **Settings → Statistics** for automatic counters since tracking began. **
 ## View your character online
 
 Use **View online** beside the character selector, or **Settings → Website & sync → Connect account**. Approve the code on the website once. The app syncs progress automatically while running. You can hide profiles, disconnect devices and download private workspace snapshots from [My characters](https://waymark-aion2.erebusares.chatgpt.site/account). [Full setup instructions](https://waymark-aion2.erebusares.chatgpt.site/help/sync).
+
+![Example of the exact suggested farming pocket selected on the map](images/map-target.png)
