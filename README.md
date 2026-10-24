@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.2 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.2/Waymark-0.5.2-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.2) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.3 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.3/Waymark-0.5.3-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.3) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -45,6 +45,18 @@ The Windows minimap keeps its **padlock button beside the zoom control**. Lock i
 
 [See every page and feature example in the 0.4.0 screenshot gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
 
+## Farm toward your next upgrade
+
+Open the **Farming session** foldout on Pets for observed souls, connected farming time, souls/hour after the first minute, per-pet gains and confirmed rank-ups. Sessions start with the next accepted pickup, pause their clock when the reader disconnects, and save locally for each character. Pause/resume the summary or select **New session** for fresh counters; pausing the summary does not stop collection progress.
+
+Add up to 12 **pet goals** with the target icon on a pet card. Goals are shared by server. The next-target suggestion favors unfinished goals and nearby mapped pockets, advances when the current target reaches maximum progress, and can be changed with **Another** or disabled using **Next-target guidance**.
+
+![Farming session summary, server-shared goals and next-target suggestion, using example data](docs/images/farming-session.png)
+
+The minimap shows a target cue inside the map or an edge arrow when it is out of view. Targets in another territory show **Travel to Altgard**, Verteron or Abyss. Distance uses the map's available units; directions disappear when the position is stale. These are approximate straight-line references, not walkable routes or live spawn detections.
+
+<img src="docs/images/minimap-target.png" width="320" alt="Minimap example with an offscreen target arrow and recent soul progress">
+
 ## Find a farming pocket
 
 Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. **Display → Spawn dots** restores individual references; your choice is saved.
@@ -55,7 +67,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.2-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.3-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.

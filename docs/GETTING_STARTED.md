@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.2](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.2/Waymark-0.5.2-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.3](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.3/Waymark-0.5.3-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.2-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.3-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -81,6 +81,18 @@ Supported Verteron map views can recognize claimed-feather evidence. Automatic c
 Map layers, individual resource filters, Follow, per-map pan and zoom, custom pins, circuits, named routes, pet sorting, collection filters, inventory filters and the selected Settings section are saved locally. The minimap remembers whether it is open, its X/Y position, zoom tier and lock. Main-window position, size and maximized state are also retained. If a monitor is disconnected, an off-screen window returns to the primary display.
 
 Update preferences are saved in Settings. **Launch at startup** controls the current Windows user's startup entry.
+
+## Farming sessions, goals and next targets
+
+On Pets, expand **Farming session** to see local counters for the selected character. The next observed soul starts the first session automatically. The timer counts connected time while the reader identifies that character, including time spent idle in game; it excludes disconnections, other characters and manual pauses. Rates appear after one minute. Confirmed rank-ups require a known starting level. Counts begin with this version and are not backfilled from older totals. Full backups include the summary.
+
+Use **Pause** to exclude subsequent gains from this summary while continuing normal pet tracking. **Resume** continues it; **New session** starts fresh counters. Sessions survive restarting Waymark.
+
+Use a pet card's target icon to add or remove a goal. Up to 12 goals are saved per server and shared between characters on that server. The goal strip shows their progress. An estimated maximum is labeled separately from a confirmed complete pet.
+
+**Next-target guidance** selects an unfinished goal first, then nearby farming references on the current map. If no goal remains, other unfinished pets can be suggested. Use **Another** to change the target, **Show map** to inspect its references, or uncheck guidance to hide cues. A completed target advances automatically after its updated progress arrives.
+
+The minimap points approximately toward offscreen targets and names another territory when travel is needed. Cues depend on a fresh, supported location reading; last-known locations do not produce fresh directions. Guidance does not account for cliffs, altitude, portals, travel restrictions or live spawn availability.
 
 ## Updates
 
