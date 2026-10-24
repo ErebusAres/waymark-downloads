@@ -1,11 +1,11 @@
 {
-  "pub_date": "2026-10-23T21:16:18Z",
-  "notes": "# Waymark 0.5.2\r\n\r\n- Reduce minimap traffic by excluding unused regional outlines and sending individual spawn positions only when Spawn dots is enabled.\r\n- Avoid rebuilding pet marker data when the observed pet snapshot has not changed. Cache map grouping and skip drawing markers outside the current map view.\r\n- Give the background reader lower scheduling priority than the foreground game. Add an adaptive pause after terrain matching so expensive visual scans leave more CPU time for play; packet-based soul collection remains independent.\r\n- Preserve the farming pockets, location data, filters, saved preferences and player glow from the previous build.\r\n",
-  "version": "0.5.2",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzlmY2JMblI3blNUcXRmTElpQUduT1puQ3NDaVpDMkxuUWpLS0NlQzB0Vk82L1hscmtFUmNiT2FMaDRpTzhIMUtrSndhMnlabVgvR0UvdTFJelZ0S3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzkwMDc2CWZpbGU6V2F5bWFya18wLjUuMl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjIKTG4yTWs5THdPdHg3U3lUbzdlSGYrVXg5MnozbnFIZ0xQRWJXTm8rQkZWZG0yU2hVODBSWStBNE1DUkxUQ25WME5FV3dxVkxTR0pYckxGb3R0OHRQQnc9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.2/Waymark-0.5.2-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzUwUUtlVURmcTFwZXQ1VWZPVlhUSWQzUDBLcm52WWozS1kwSEtYVjN6Rkgrb25Yb2toZHFDV2hwRlRIOTluMVE5RGJWQXVNVDhZRERTY1BUL2RHWFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODIzMTIyCWZpbGU6V2F5bWFya18wLjUuM194NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjMKVFk0Zm1SbGJFTGRmeXlNbW55SWpTUVlHREFYMmJ6Q0V6KzFnODBkeVpOOU9zQ0wyb05IZmM1b1BTUFA4Sk5pM1FJdG04Q1oxNW9RMHBhcTlHM1hFRGc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.3/Waymark-0.5.3-Setup.exe"
     }
-  }
+  },
+  "notes": "# Waymark 0.5.3\r\n\r\n- Farming session summaries start with the next accepted soul pickup. Show observed souls, connected farming time, souls/hour after one minute, per-pet gains and confirmed rank-ups. Pause/resume or start a new session. Each character keeps a local summary across restarts; disconnected time and other characters are excluded.\r\n- Add up to 12 pet goals using the target button on pet cards. Goals are shared by server, survive restarts and are included in private workspace saves. Completed and estimated-max states remain distinct.\r\n- Smart next-target guidance prefers unfinished goals and nearby mapped pockets. Once a target reaches maximum progress, it advances to another eligible pet. Choose Another to change the suggestion, or turn guidance off.\r\n- The minimap highlights visible targets and places an approximate direction arrow at its edge for offscreen targets. Cross-map suggestions say Travel to Verteron/Altgard/Abyss. Stale or unavailable position readings suppress direction and distance. Guidance is straight-line reference guidance, not terrain-aware navigation or live monster detection.\r\n- Farming summaries are local and included in full backups. Older backups remain readable. Existing low-priority reader scheduling, compact minimap payloads and cached marker calculations are retained; session summaries reuse the existing pet polling response.\r\n",
+  "pub_date": "2026-10-24T06:26:35Z",
+  "version": "0.5.3"
 }
