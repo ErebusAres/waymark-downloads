@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.5.5\r\n\r\n- Added a clear startup notice explaining that Waymark must be open when you enter the world with your character. If already playing, return safely to AION 2 Character Selection, choose the character and enter again while Waymark stays open.\r\n- The notice explains why a fresh world entry is needed and distinguishes the game login from selecting a saved profile inside Waymark.\r\n- The reminder appears after startup checks when no character is connected, stays dismissed for that launch, and closes if the reader detects a character. It does not reopen after a later disconnection in the same launch.\r\n- Added a remembered Don't show this at startup option, with a switch to restore it in Settings > Connection. First-run setup and waiting-for-character screens include the same instructions without stacking startup dialogs.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.5/Waymark-0.5.5-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzdiTzQ1S0M2eWIvUXl3QXBVQnRVTHRrLzMvRWNSWithcC82a2hTOWh6bWRMQjBpWEtjWGx0WlNGUVZ6ai9Wb3M1UjZnNktoNEJaY2syYXk0OTl4ekF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODI1NTk3CWZpbGU6V2F5bWFya18wLjUuNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjUKdmljTUhoaVlGVTRLVUxTaW9ZNWs5YTVaUUFzOHAweHlqVlp4NGtza3l6SCs1ZW42U25oTXVGelloS2dMQjJodHZ4NHZXQWV1dmtneml5TU4vTEN1QUE9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6Ry9aa24xeld5MFlYWEJkdm5hVFdqSDNIMXp3TW9oUHdyN3ZnQi9OSEs3d3hIWm1nK1U5NjJrSElYaFQwcHozbmJOYXkzbFA5bDhhNVdlZmtsdkFSWVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY4NzkyCWZpbGU6V2F5bWFya18wLjUuNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjYKd0xHS2RnNGVxaWhOdUtERzd5NkM1dkdFRnBqb0RkZ2lmZVMyUmRzYWxxdFdwZXhLWm1xU1I0NVh5YkJhSzlxbGo0eUVBM1FheTNHVks5dm9CakJzQWc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.6/Waymark-0.5.6-Setup.exe"
     }
   },
-  "version": "0.5.5",
-  "pub_date": "2026-10-24T07:07:48Z"
+  "pub_date": "2026-10-24T19:08:03Z",
+  "notes": "# Waymark 0.5.6\r\n\r\n- Fixed Empyrean Trace completion saving after reopening the map or switching focus. A repeated observation of an already recorded checkmark could conflict with its earlier timestamp and prevent new completions later in the same scan from being saved.\r\n- Repeated permanent completion checks are now idempotent for each character. Existing evidence stays intact, newly recognized traces continue saving, and revisiting a completed location does not add duplicate history.\r\n- Connection > Tracking status > Detection coverage now explains whether trace checks are reading the map, waiting for character identification, unsupported on the current map, or retrying a save/read failure.\r\n- Automatic trace completion still requires the foreground Verteron world map with the game's completed-trace icons visible. A direct pickup-event decoder and other maps are not supported yet. Missing icons and proximity never imply completion.\r\n",
+  "version": "0.5.6"
 }
