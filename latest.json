@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.5.4\r\n\r\n- Automatic farming guidance now follows the closest eligible unfinished pet as your position changes, instead of saving the first suggestion as a chosen target. Your goal shortlist remains the eligible pool when unfinished goals exist.\r\n- Explicit choices are saved separately. Click a goal name, Use as target in pet details, or Another to choose a pet. Auto returns to nearest-target selection. Completed or unavailable chosen pets fall back to an automatic suggestion.\r\n- Existing automatically saved suggestions from 0.5.3 no longer act as pinned choices.\r\n- Removed the redundant pet-card chevron that overlapped the goal icon. The full card remains clickable to open details.\r\n",
-  "pub_date": "2026-10-24T06:42:18Z",
+  "notes": "# Waymark 0.5.5\r\n\r\n- Added a clear startup notice explaining that Waymark must be open when you enter the world with your character. If already playing, return safely to AION 2 Character Selection, choose the character and enter again while Waymark stays open.\r\n- The notice explains why a fresh world entry is needed and distinguishes the game login from selecting a saved profile inside Waymark.\r\n- The reminder appears after startup checks when no character is connected, stays dismissed for that launch, and closes if the reader detects a character. It does not reopen after a later disconnection in the same launch.\r\n- Added a remembered Don't show this at startup option, with a switch to restore it in Settings > Connection. First-run setup and waiting-for-character screens include the same instructions without stacking startup dialogs.\r\n",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6R3k0aFVGOWZUMDZ4RjVtOTU4WG1qcVp1Nlo2UVVlU0Nadk9NZXIrVXlHOWJUamRIcGRmUlZ0cDFXaWFjeStadXpkWlRicWFNNG9lOHVYRGJtc0RFMkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODI0MDY2CWZpbGU6V2F5bWFya18wLjUuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjQKSnd1MVlJWTEvc0JXaTI1aW5WNGlqbWh5Zkl4K1VtK0J3SXVFdGJXL293MkVuR1ArUkw3TnBKeTd5VmNiQ3pmb1podm0zTUQrSWphUnc3cXZzR2lMQkE9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.4/Waymark-0.5.4-Setup.exe"
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.5/Waymark-0.5.5-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzdiTzQ1S0M2eWIvUXl3QXBVQnRVTHRrLzMvRWNSWithcC82a2hTOWh6bWRMQjBpWEtjWGx0WlNGUVZ6ai9Wb3M1UjZnNktoNEJaY2syYXk0OTl4ekF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODI1NTk3CWZpbGU6V2F5bWFya18wLjUuNV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjUKdmljTUhoaVlGVTRLVUxTaW9ZNWs5YTVaUUFzOHAweHlqVlp4NGtza3l6SCs1ZW42U25oTXVGelloS2dMQjJodHZ4NHZXQWV1dmtneml5TU4vTEN1QUE9PQo="
     }
   },
-  "version": "0.5.4"
+  "version": "0.5.5",
+  "pub_date": "2026-10-24T07:07:48Z"
 }
