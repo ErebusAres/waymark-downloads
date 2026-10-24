@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.4 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.4/Waymark-0.5.4-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.4) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.5 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.5/Waymark-0.5.5-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.5) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -69,13 +69,23 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.4-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.5-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
 5. Open the in-game map briefly to acquire a visual position, then choose your layers and route.
 
 See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update settings, troubleshooting and backups.
+
+## Connecting your character
+
+**Keep Waymark open when you enter the game.** Already playing AION 2? When safely out of combat, return to **Character Selection in AION 2**, choose your character and enter again while Waymark stays open. Give it a moment to detect your character and start updating information.
+
+Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game, and signing into the website is a separate step. If starting the game next, open Waymark first and enter your character normally.
+
+Version 0.5.5 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
+
+![Waymark startup character-connection instructions](docs/images/login-notice.png)
 
 ## Current coverage
 
