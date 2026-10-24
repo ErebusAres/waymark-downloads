@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.7](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.7/Waymark-0.5.7-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.8](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.8/Waymark-0.5.8-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.7-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.8-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -58,7 +58,7 @@ The default position is 45 pixels from the primary monitor's top-left corner. Po
 
 The [screenshot gallery](SCREENSHOTS.md#overlays) shows the current minimap frame. Browser-preview captures omit its Windows-only lock control; the installed app retains it.
 
-**Recent souls** below the minimap shows the latest three pets with observed pickups, independent of the map’s pet-marker filter. Portrait rings fill toward the next rank and use your custom pet-rank colors. A newly confirmed Lv.3 briefly glows with a checkmark, then leaves the strip; estimated maximum ranks remain until confirmed. Select the strip’s header to fold or unfold it. This preference saves automatically, and the Windows overlay grows downward to keep the map view the same size. Unlock click-through before using the fold control.
+**Recent souls** below the minimap shows the latest three pets with observed pickups, independent of the map’s pet-marker filter. Portrait rings fill toward the next rank and use your custom pet-rank colors. A newly confirmed Lv.3 briefly glows with a checkmark, then leaves the strip; estimated maximum ranks remain until confirmed. Select the strip’s header to fold or unfold it. This preference saves automatically, and the Windows overlay grows downward to keep the map view the same size. Click a pet icon while unlocked to bring the main app forward and open its details. Its map buttons show farming areas for that creature specifically. Your library filters and chosen farming target are preserved. Unlock click-through before using the strip controls.
 
 ## Pets and soul progress
 

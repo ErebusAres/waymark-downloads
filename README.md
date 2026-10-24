@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.7 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.7/Waymark-0.5.7-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.7) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.8 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.8/Waymark-0.5.8-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.8) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -39,7 +39,7 @@ The 0.4.0 remaster puts navigation in one compact header and gives terrain the f
 
 ![Waymark minimap in Ellun River Marsh with Windows lock control and recent souls](docs/images/minimap-windows.png)
 
-In 0.4.1, the minimap title shows the detected region, retains a recent last-known region for up to 30 seconds, then reads **Unavailable**. Long names truncate with an ellipsis; hover to see the full name. All three zoom tiers are closer, with your saved tier choice preserved. A foldable **Recent souls** strip shows the latest three pets with portrait progress rings, rank colors and a brief completion effect before confirmed max-level pets leave the strip. Your fold preference is saved.
+In 0.4.1, the minimap title shows the detected region, retains a recent last-known region for up to 30 seconds, then reads **Unavailable**. Long names truncate with an ellipsis; hover to see the full name. All three zoom tiers are closer, with your saved tier choice preserved. A foldable **Recent souls** strip shows the latest three pets with portrait progress rings, rank colors and a brief completion effect before confirmed max-level pets leave the strip. Your fold preference is saved. Click a pet in the unlocked strip to bring Waymark forward and open its details, then use its map buttons to view farming areas for that creature.
 
 The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. The image above shows the Windows lock control and recent-souls tracker.
 
@@ -69,7 +69,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.7-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.8-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -83,7 +83,7 @@ See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update se
 
 Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game, and signing into the website is a separate step. If starting the game next, open Waymark first and enter your character normally.
 
-Version 0.5.7 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
+Version 0.5.8 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
 
 ![Waymark startup character-connection instructions](docs/images/login-notice.png)
 
