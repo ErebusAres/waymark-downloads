@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.9 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.9/Waymark-0.5.9-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.9) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.10 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.10/Waymark-0.5.10-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.10) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -25,7 +25,7 @@ Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
 Pet cards bring together portraits, names, farming locations, levels and soul progress. Closest to complete is the default order, with completed level 3 pets at the bottom. Switch to alphabetical, least progress first, or recent pickups.
 
-Missing starting levels use clearly labeled estimates from zero. Pickups advance those estimates at 5, 25 and 75 souls; confirmed game readings replace them. Estimated maximum ranks remain visible for farming. Supported live soul pickups update progress without relogging, and reaching a tier threshold advances the displayed level. If a level is missing or appears stale, open that pet’s in-game card with the game focused for a few seconds. Waymark checks the selected tile against the card and updates the saved rank and count automatically. Card verification currently supports the English pet screen and uses Windows’ built-in OCR. Pet progress is shared between characters on the same server. Farming locations use reference monster spawn points where available, with regional fallbacks labeled separately.
+Missing starting levels use clearly labeled estimates from zero. Pickups advance those estimates at 5, 25 and 75 souls; confirmed game readings replace them. Estimated maximum ranks remain visible for farming. Supported live soul pickups update progress without relogging, and reaching a tier threshold advances the displayed level. If a level is missing or appears stale, open that pet’s in-game card with the game focused for a few seconds. Waymark checks the selected tile against the card and updates the saved rank and count automatically. Card verification currently supports the English pet screen and uses Windows’ built-in OCR. Pet progress is shared between characters on the same server. Farming locations use reference monster spawn points where available, with regional fallbacks labeled separately. The location button beside pet sorting cycles **All locations → Verteron only → Altgard only → Abyss only**, filtering the library and displayed sources. Your choice is saved independently of sorting.
 
 ![Waymark pet page with compact cards and soul progress bars](docs/images/pets.jpg)
 
@@ -69,7 +69,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.9-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.10-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -83,7 +83,7 @@ See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update se
 
 Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game, and signing into the website is a separate step. If starting the game next, open Waymark first and enter your character normally.
 
-Version 0.5.9 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
+Waymark explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
 
 ![Waymark startup character-connection instructions](docs/images/login-notice.png)
 
