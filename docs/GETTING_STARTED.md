@@ -166,3 +166,9 @@ At close zoom, the main map and minimap show all enabled pets’ available refer
 Open **Settings → Appearance → Text size**. Main app and Minimap have separate sliders, from **100% to 200%** in 5% steps. The original 100% size is the minimum. Changes save automatically. Use the reset beside a slider to restore just that window, or **Reset text sizes** to reset both. Larger sizes let navigation and toolbars wrap; pet cards expand around their labels. The minimap adjusts its size to keep recent souls readable and stays within the current monitor.
 
 ![Independent main-app and minimap text size controls](images/text-size.png)
+
+## Reading pet spawn locations
+
+The outer color of a pet’s area portrait matches its spawn references. Medium zoom shows colored points and subtle local patches. Zoom closer for creature portraits. Counts group nearby same-creature references; short leader lines connect displaced portraits to their source positions. The main portrait keeps its pet-level color and badge. The minimap uses the same system with compact grouping. These are mapped references, not a live view of which mobs are currently alive.
+
+![Creature portraits and matching spawn colors at close zoom](images/spawn-portraits.png)
