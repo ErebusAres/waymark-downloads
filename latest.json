@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.5.10\r\n\r\n- Added a location toggle beside pet sorting: All locations → Verteron only → Altgard only → Abyss only.\r\n- Filters the pet library by recorded farming sources, and narrows location labels and pet detail locations to the selected territory. All Abyss layers are treated as Abyss.\r\n- Defaults to All locations and remembers your selection across launches, backups and synced saves. Existing sort, search, level and genus choices remain independent.\r\n- Abyss filtering uses recorded source information; it does not invent precise spawn coordinates where those are unavailable.\r\n",
-  "version": "0.5.10",
+  "version": "0.5.11",
+  "pub_date": "2026-10-25T02:55:07Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.10/Waymark-0.5.10-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzR3QXdYcTUxQ24ydFNpNEE5SWpsOHo2UDQ3ckFoWFlwSStWZVhBTWplYnp2VjJxQmpOTzNCd0pud2pOYVpibkhsRGp2RElvcEtLMUZNOC9XUjhodmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2MDY5CWZpbGU6V2F5bWFya18wLjUuMTBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xMAoxVk42YjFaWVVsYjN5NVhUVzRZSVRhOWxyL01OVE5pTjY3ZEJIclVPOHFkWmMxMzJRUnpMZjU1dHNJS3RxUFB2Nkp0b1FXS01heGdvTnY4QTBod21CZz09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzM0TzE0V0Y4MU96blluNnNpM2JTWVdURXRPNUQyRGx0WWc5ZnhmTmVxMDQyKzI3Z1FsSUNCVm9zWVJkM0ZCRk9ueTB6QVU4ZjNqWUI3QmpRQklEeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2ODM0CWZpbGU6V2F5bWFya18wLjUuMTFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xMQp6RzJOdUlNN1JqRGNrajFjVXBuNkRnZFBCU0szZzN6dm1sQ3VaVFBxZ3BNYkJPMFBpbGtOVDRiMFNPbWJFSkRTa1Fobi9uTnZMa3ArcXhRbXdISEhCUT09Cg==",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.11/Waymark-0.5.11-Setup.exe"
     }
   },
-  "pub_date": "2026-10-25T02:42:20Z"
+  "notes": "# Waymark 0.5.11\r\n\r\n- Pet sorting now uses the same icon-and-label button style as the location toggle, with matching height, padding, spacing and icon size.\r\n- The full sorting label is inside the button and stays visible at narrower window sizes. Sorting choices and saved preferences are unchanged.\r\n"
 }
