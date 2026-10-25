@@ -160,3 +160,9 @@ If you open Waymark after entering the game, return safely to **Character Select
 The startup reminder explains these steps until you acknowledge it. Its **Don't show this at startup** preference is saved. You can re-enable it in **Settings → Connection**, which also keeps the instructions available to read again. First-run setup includes the same login steps.
 
 At close zoom, the main map and minimap show all enabled pets’ available reference positions without requiring a pet selection. Nearby references share small count markers that separate as you zoom closer. Pet detail map links focus a suggested pocket for that creature and zoom in. Current precise pet coverage is Verteron and Altgard; unsupported Abyss pet positions are not inferred.
+
+## Text size
+
+Open **Settings → Appearance → Text size**. Main app and Minimap have separate sliders, from **100% to 200%** in 5% steps. The original 100% size is the minimum. Changes save automatically. Use the reset beside a slider to restore just that window, or **Reset text sizes** to reset both. Larger sizes let navigation and toolbars wrap; pet cards expand around their labels. The minimap adjusts its size to keep recent souls readable and stays within the current monitor.
+
+![Independent main-app and minimap text size controls](images/text-size.png)
