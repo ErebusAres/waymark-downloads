@@ -1,11 +1,11 @@
 {
-  "version": "0.5.11",
-  "pub_date": "2026-10-25T02:55:07Z",
+  "notes": "# Waymark 0.5.12\r\n\r\n## Text size\r\n\r\n- Open Settings > Appearance > Text size to adjust the main app and minimap independently.\r\n- Choose 100% to 200% in 5% steps. 100% preserves the current appearance and is the smallest setting.\r\n- Both choices save automatically, with individual resets and a reset for both text sizes.\r\n- Navigation and toolbars reflow around larger text. Pet cards keep equal sizes and their progress bars stay below the labels.\r\n- The minimap adapts its window size to fit larger text, respecting monitor bounds and keeping the current position when it fits. Locking, zoom and follow behavior remain available.\r\n\r\n## Validation\r\n\r\nFrontend preference/control tests, worker persistence tests and native minimap sizing tests cover independent settings, defaults, invalid values, DPI and monitor bounds. Enlarged settings, navigation, pet cards and recent souls were checked in isolated UI previews without changing saved player progress.\r\n",
+  "version": "0.5.12",
+  "pub_date": "2026-10-25T04:32:59Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzM0TzE0V0Y4MU96blluNnNpM2JTWVdURXRPNUQyRGx0WWc5ZnhmTmVxMDQyKzI3Z1FsSUNCVm9zWVJkM0ZCRk9ueTB6QVU4ZjNqWUI3QmpRQklEeUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2ODM0CWZpbGU6V2F5bWFya18wLjUuMTFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xMQp6RzJOdUlNN1JqRGNrajFjVXBuNkRnZFBCU0szZzN6dm1sQ3VaVFBxZ3BNYkJPMFBpbGtOVDRiMFNPbWJFSkRTa1Fobi9uTnZMa3ArcXhRbXdISEhCUT09Cg==",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.11/Waymark-0.5.11-Setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6Ry9WaHFXTGJocmlzMnVJazYzQXQxS3pLYW40dmgyRHhDYVE5QXZZQ0xrUTVmc0pqSzB0aW85c2RRK2dlNUhNbG1UUDVpRFZqOVRkYi84cEw3K05IRHdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAyNzEwCWZpbGU6V2F5bWFya18wLjUuMTJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xMgpTNDdQdFNXazl0Q0VXTW1vVWdmb1hsVmNIdHdRZDhRRDR1WlJxbHY3TGFjdmFYTzQ4WGZiTnNQV1RjLzhVbUhiblh0cENsblpuUm0yZUg1R1Yzb2VCZz09Cg==",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.12/Waymark-0.5.12-Setup.exe"
     }
-  },
-  "notes": "# Waymark 0.5.11\r\n\r\n- Pet sorting now uses the same icon-and-label button style as the location toggle, with matching height, padding, spacing and icon size.\r\n- The full sorting label is inside the button and stays visible at narrower window sizes. Sorting choices and saved preferences are unchanged.\r\n"
+  }
 }
