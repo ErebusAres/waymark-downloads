@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.13 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.13/Waymark-0.5.13-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.13) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.14 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.14/Waymark-0.5.14-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.14) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -22,6 +22,8 @@ Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 - **Readable at your size.** Set separate main-app and minimap text sizes in Settings → Appearance. Increase either from 100% to 200%, with automatic saving and individual resets. Navigation, cards and toolbars adapt around larger text.
 - **Choose your own colors.** Personalize the player marker and glow, pet ranks and map accents in Settings → Appearance. Reset one color or restore the original palette.
 - **Track collection progress.** Mark individual objectives or declare a whole category complete for a character. Progress can be reset in Settings.
+
+Hover a creature’s spawn reference to highlight matching points, patches and portraits. Selecting a creature keeps it highlighted until you close its location details.
 
 ## See your next pet upgrade
 
@@ -71,7 +73,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.13-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.14-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -94,6 +96,10 @@ Waymark explains this at startup when a character has not connected. **Don't sho
 Waymark is under active development. Visual position tracking is verified in Verteron and Altgard. Abyss tracking and cross-faction transitions still need live validation. Position comes from visible game terrain; a last-known marker remains visible when a fresh fix is unavailable.
 
 Resource and pet spawn markers are reference locations, not a live spawn-availability feed. Routes connect map objectives; they do not calculate a walkable path around terrain. Supported Empyrean Traces update directly from character-bound achievement messages, with previously collected traces restored during a fresh character entry. The game map is not required for those updates. Checked Verteron map icons remain a fallback. Ambiguous or missing location-catalog matches are excluded. Dungeon and stronghold completion, including reset-period rewards, is not yet fully detected automatically; use manual collection controls where needed. Inventory and other character information depend on the fields the reader can currently observe.
+
+## Compare farming sessions
+
+Expand **Farming session** on the Pets page to add an optional label, pause/resume counting, or start a new session. Waymark keeps the last **20 completed sessions per character**, including observed souls, connected time and rates, so you can compare runs. History stays local and is included in full backups. Location details distinguish **Mapped reference** from **General area**; reference density does not establish a player-verified farming rate.
 
 ## Usage statistics
 

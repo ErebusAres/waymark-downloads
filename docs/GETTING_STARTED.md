@@ -172,3 +172,13 @@ Open **Settings → Appearance → Text size**. Main app and Minimap have separa
 The outer color of a pet’s area portrait matches its spawn references. Medium zoom shows colored points and subtle local patches. Zoom closer for creature portraits. Counts group nearby same-creature references; short leader lines connect displaced portraits to their source positions. The main portrait keeps its pet-level color and badge. The minimap uses the same system with compact grouping. These are mapped references, not a live view of which mobs are currently alive.
 
 ![Creature portraits and matching spawn colors at close zoom](images/spawn-portraits.png)
+
+## Farming sessions and map focus
+
+Hover or keyboard-focus a creature’s reference marker to highlight matching spawns. Click to keep that creature highlighted, then close its location details to clear the focus.
+
+Expand **Farming session** on the Pets page to add an optional label. **New session** archives the previous active session. **Previous sessions** lists up to 20 completed runs for this character, with souls, connected time and observed rate. History and labels are included in full backups and remain local.
+
+![Labeled farming session and previous-session comparison](images/session-history.png)
+
+Connection → Tracking status → Detection coverage distinguishes automatic collection evidence from first-clear, reset-period clear and reward decoders that are not yet verified. See [current readiness checks and remaining live tests](READINESS-0.5.14.md).
