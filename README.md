@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.14 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.14/Waymark-0.5.14-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.14) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.15 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.15/Waymark-0.5.15-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.15) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -15,7 +15,7 @@ Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 ## Explore with a purpose
 
 - **World maps with terrain.** Find feathers, gathering nodes, kibelisks, sealed dungeons and strongholds. Verteron and Altgard use English kibelisk names; Abyss reference maps are also included.
-- **Recognize nearby creatures.** Pet spawn areas use consistent creature colors that match the outer ring of each area portrait. Zoom in for individual creature portraits; nearby references group with counts. Pet-level colors remain on the main portrait.
+- **Recognize nearby creatures.** Readable farming-pocket icons replace repeated tiny portraits. Overlapping pockets share a numbered badge; click it for creature names, icons and ranks. The badge counts creatures, not spawns. Pet-level colors remain on the portrait.
 - **Choose what appears.** Toggle whole categories, resource groups or individual resources. Show every enabled marker when zoomed out, or turn on grouping.
 - **Keep your own routes.** Name custom pins, choose a route start and save a circuit. Filters, follow mode, routes and map views are remembered.
 - **A minimap that fits your setup.** Move it, cycle three zoom levels, or scroll to zoom while unlocked. It stays above other windows and can lock with click-through enabled.
@@ -23,7 +23,7 @@ Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 - **Choose your own colors.** Personalize the player marker and glow, pet ranks and map accents in Settings → Appearance. Reset one color or restore the original palette.
 - **Track collection progress.** Mark individual objectives or declare a whole category complete for a character. Progress can be reset in Settings.
 
-Hover a creature’s spawn reference to highlight matching points, patches and portraits. Selecting a creature keeps it highlighted until you close its location details.
+Hover or select a creature to reveal its reference dots and subtle area tint. Other creatures remain visible. Zooming in separates nearby pocket badges. The main map and minimap use the same display rules.
 
 ## See your next pet upgrade
 
@@ -34,6 +34,12 @@ Missing starting levels use clearly labeled estimates from zero. Pickups advance
 ![Waymark pet page with compact cards and soul progress bars](docs/images/pets.jpg)
 
 *Screenshots use an example profile and illustrative progress.*
+
+Use **All sources**, **World farming**, or **Boxes & rewards only** to narrow the pet library. Rewards-only means the catalog records a chest or reward and no world drop or farming area; it does not guarantee that another source cannot exist.
+
+For a farming circuit, select pets on their cards, open **Farming route**, choose the map and **Completion priority** or **Nearby first**, then **Save and use route**. Routes use that selection independently of the card filters. The map fits all stops, with gold numbered markers and connecting lines; reorder them in **Circuit**.
+
+[See the new pocket badges, creature chooser, minimap tiers and route examples](docs/SCREENSHOTS.md#pet-location-display-in-0515).
 
 ## A cleaner desktop workspace
 
@@ -47,7 +53,7 @@ In 0.4.1, the minimap title shows the detected region, retains a recent last-kno
 
 The Windows minimap keeps its **padlock button beside the zoom control**. Lock it for click-through; press **Ctrl+Shift+G** to unlock. Its position, zoom and lock state are saved. The image above shows the Windows lock control and recent-souls tracker.
 
-[See every page and feature example in the 0.4.0 screenshot gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
+[See current pet-location examples and the complete interface gallery](docs/SCREENSHOTS.md), including collections, inventory, character resources, pet farming details and every Settings section.
 
 ## Farm toward your next upgrade
 
@@ -65,7 +71,7 @@ The minimap shows a target cue inside the map or an edge arrow when it is out of
 
 ## Find a farming pocket
 
-Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. At close zoom, all enabled pets’ individual references appear automatically. Nearby same-pet positions group into counts and split as you zoom closer. **Display → Always show spawns** forces point detail at wider zoom; your choice is saved. This applies to the main map and minimap. These are reference-based density suggestions, not measured souls/hour or live monster availability.
+Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. Select a creature to see its individual reference dots. Nearby same-pet references share counts and separate as you zoom closer. **Display → Always show spawns** shows all enabled creature references at every zoom; your choice is saved. This applies to the main map and minimap. These are reference-based density suggestions, not measured souls/hour or live monster availability.
 
 ![Fossa farming pockets and source details](docs/images/farming-pockets.png)
 
@@ -73,7 +79,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.14-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.15-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.

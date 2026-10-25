@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.11](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.11/Waymark-0.5.11-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.15](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.15/Waymark-0.5.15-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.11-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.15-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -36,9 +36,13 @@ Missing observations remain unknown. Selecting a planning profile manually does 
 | Shift-click | Add a custom pin and give it a name |
 | Ctrl-click | Set the route start |
 | Circuit | Build a circuit from the enabled, unfinished objectives |
-| Display → Always show spawns | Points appear automatically up close; enable this override to keep them visible at wider zoom |
+| Display → Always show spawns | Select a creature for its references; enable this override to show all enabled creature references at every zoom |
 | Display → Group | Combine nearby markers when zoomed out; off by default |
 | Layers panel | Show or hide categories, custom pins and individual resource types |
+
+Pet locations use farming-pocket icons. If pockets overlap, a numbered badge counts the creatures sharing it. Click to choose a creature from the list, then view its reference dots. Zooming in separates pockets.
+
+On Pets, **Boxes & rewards only** selects catalog-listed reward pets without a recorded world farming source. For a farming route, check pets on their cards, set the planner map and choose **Completion priority** or **Nearby first**. **Save and use route** opens a view of every stop. The card level, genus and sorting filters do not select route targets. Reorder or remove stops in **Circuit**.
 
 Use **Panel** to show or hide the floating map panel. **Layers** controls visibility; **Locations** shows search results. Searching switches to Locations automatically, and your panel choice is remembered. **Display** contains grouping and terrain controls.
 

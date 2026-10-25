@@ -1,12 +1,46 @@
-# Waymark 0.4.0 in pictures
+# Waymark in pictures
 
-[Download for Windows](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.4.0) · [Getting started](GETTING_STARTED.md) · [Back to Waymark](../README.md)
+[Download for Windows](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.15) · [Getting started](GETTING_STARTED.md) · [Back to Waymark](../README.md)
 
 The current desktop interface, with examples of each page and its main controls. Select an image to view it at full size.
 
 These are rendered app screens using an example profile. Character progress, reader status and usage statistics are illustrative. Browser previews omit Windows-only overlay controls: the installed minimap still has a padlock beside its zoom control, click-through, always-on-top behavior and **Ctrl+Shift+G** to unlock. These images do not demonstrate live game detection.
 
 [Map](#map) · [Pets](#pets) · [Collections](#collections) · [Inventory](#inventory) · [Character](#character) · [Settings](#settings) · [Overlays](#overlays)
+
+## Pet location display in 0.5.15
+
+These are offline previews of production components using bundled terrain and reference data. They do not demonstrate live gameplay or Windows-only overlay controls. The remaining full-interface gallery below was captured for 0.4.0.
+
+### Readable farming pockets
+
+One icon per nearby farming pocket, with shared badges where creature locations overlap. A badge number counts distinct creatures. Select a creature to reveal its reference dots; the underlying coordinates are unchanged.
+
+![Pet pocket overview](images/pet-pockets-0.5.15/overview.png)
+
+### Choose a creature
+
+Open a shared badge to see icons, names and ranks. The list scrolls and supports keyboard navigation; Escape closes it.
+
+![Shared pocket creature chooser](images/pet-pockets-0.5.15/chooser.png)
+
+### Minimap zoom tiers
+
+The same pocket display at all three minimap zoom levels. The Windows minimap retains its padlock and click-through controls.
+
+![Three minimap zoom tiers](images/pet-pockets-0.5.15/minimap-tiers.png)
+
+### Farming route
+
+Saving a route frames its stops and shows gold numbered markers with straight-line connections. These are not terrain-aware paths.
+
+![Pet farming route](images/pet-pockets-0.5.15/route.png)
+
+### Boxes and rewards
+
+Filter for pets with catalog-listed chest/reward sources and no recorded world farming source. Missing source information is not proof of exclusivity.
+
+![Reward-only pet filter and route order controls](images/pet-pockets-0.5.15/reward-filter.png)
 
 ## Map
 
