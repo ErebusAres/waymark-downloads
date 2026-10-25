@@ -4,7 +4,7 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.8 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.8/Waymark-0.5.8-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.8) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.9 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.9/Waymark-0.5.9-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.9) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
 [**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
@@ -49,7 +49,7 @@ The Windows minimap keeps its **padlock button beside the zoom control**. Lock i
 
 Open the **Farming session** foldout on Pets for observed souls, connected farming time, souls/hour after the first minute, per-pet gains and confirmed rank-ups. Sessions start with the next accepted pickup, pause their clock when the reader disconnects, and save locally for each character. Pause/resume the summary or select **New session** for fresh counters; pausing the summary does not stop collection progress.
 
-Auto recommends nearby unfinished pets outside the group you are actively farming. Recent current-session soul pickups identify that group. Completed Lv.3 pets are excluded, and manually chosen unfinished targets stay selected. With unfinished goals, it chooses from that shortlist. Click a goal name, **Use as target** in pet details, or **Another** to make an explicit choice; **Auto** returns to nearest-target selection. Chosen targets save separately from automatic suggestions.
+Auto suggests farming pockets using needed-pet overlap, mapped target density and a travel-distance penalty, outside the pets you are actively farming. Recent current-session soul pickups identify that group. Completed Lv.3 pets are excluded, and manually chosen unfinished targets stay selected. With unfinished goals, it chooses from that shortlist. Click a goal name, **Use as target** in pet details, or **Another** to make an explicit choice; **Auto** returns to reference-based spot suggestions. A small gold star marks the current suggested pocket; its summary explains the target spawn count and any overlap with other needed pets. Chosen targets save separately from automatic suggestions.
 
 Add up to 12 **pet goals** with the target icon on a pet card. Goals are shared by server. The next-target suggestion favors unfinished goals and nearby mapped pockets, advances when the current target reaches maximum progress, and can be changed with **Another** or disabled using **Next-target guidance**.
 
@@ -61,7 +61,7 @@ The minimap shows a target cue inside the map or an edge arrow when it is out of
 
 ## Find a farming pocket
 
-Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. **Display → Spawn dots** restores individual references; your choice is saved.
+Version 0.5.1 adds 1,124 reference positions from [Aion Dex](https://aion2dex.com/farming/) for Verteron and Altgard, compared by numeric NPC ID against the existing Questlog data. Pet markers now represent compact spawn groups, including separate pockets within the same region. Select one to see its footprint and mapped spawn count. At close zoom, all enabled pets’ individual references appear automatically. Nearby same-pet positions group into counts and split as you zoom closer. **Display → Always show spawns** forces point detail at wider zoom; your choice is saved. This applies to the main map and minimap. These are reference-based density suggestions, not measured souls/hour or live monster availability.
 
 ![Fossa farming pockets and source details](docs/images/farming-pockets.png)
 
@@ -69,7 +69,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.8-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.9-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -83,7 +83,7 @@ See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update se
 
 Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game, and signing into the website is a separate step. If starting the game next, open Waymark first and enter your character normally.
 
-Version 0.5.8 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
+Version 0.5.9 explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
 
 ![Waymark startup character-connection instructions](docs/images/login-notice.png)
 

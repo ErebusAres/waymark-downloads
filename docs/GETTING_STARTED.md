@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.8](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.8/Waymark-0.5.8-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.9](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.9/Waymark-0.5.9-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.8-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.9-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -36,7 +36,7 @@ Missing observations remain unknown. Selecting a planning profile manually does 
 | Shift-click | Add a custom pin and give it a name |
 | Ctrl-click | Set the route start |
 | Circuit | Build a circuit from the enabled, unfinished objectives |
-| Display → Spawn dots | Show individual pet spawn references instead of group outlines; off by default |
+| Display → Always show spawns | Points appear automatically up close; enable this override to keep them visible at wider zoom |
 | Display → Group | Combine nearby markers when zoomed out; off by default |
 | Layers panel | Show or hide categories, custom pins and individual resource types |
 
@@ -151,10 +151,12 @@ Use **View online** beside the character selector, or **Settings → Website & s
 
 ### Automatic versus chosen farming targets
 
-From 0.5.4, automatic guidance continuously chooses the nearest eligible unfinished pet. Unfinished goals define the shortlist when present. Automatic suggestions are not saved as chosen targets. Click a goal name, Use as target in pet details, or Another to choose a pet explicitly; it remains selected across restarts. Select Auto to return to proximity-based guidance. Old automatic suggestions saved by 0.5.3 no longer act as pinned choices.
+From 0.5.9, automatic guidance scores compact farming pockets using needed-pet overlap, mapped target density and travel distance. Suggestions use static reference positions, not measured drop speed. The suggested marker has a small gold star, and its summary gives the reason for selection. Unfinished goals define the shortlist when present. Automatic suggestions are not saved as chosen targets. Click a goal name, Use as target in pet details, or Another to choose a pet explicitly; it remains selected across restarts. Select Auto to return to reference-based spot suggestions. Old automatic suggestions saved by 0.5.3 no longer act as pinned choices.
 
 ## Character connection reminder
 
 If you open Waymark after entering the game, return safely to **Character Selection in AION 2**, select your character and enter again with Waymark still open. This is a game character login, not the saved-profile selector in Waymark or the website account sign-in.
 
 The startup reminder explains these steps until you acknowledge it. Its **Don't show this at startup** preference is saved. You can re-enable it in **Settings → Connection**, which also keeps the instructions available to read again. First-run setup includes the same login steps.
+
+At close zoom, the main map and minimap show all enabled pets’ available reference positions without requiring a pet selection. Nearby references share small count markers that separate as you zoom closer. Pet detail map links focus a suggested pocket for that creature and zoom in. Current precise pet coverage is Verteron and Altgard; unsupported Abyss pet positions are not inferred.
