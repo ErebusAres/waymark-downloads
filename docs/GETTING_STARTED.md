@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.10](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.10/Waymark-0.5.10-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.11](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.11/Waymark-0.5.11-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.10-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.11-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -64,7 +64,7 @@ The [screenshot gallery](SCREENSHOTS.md#overlays) shows the current minimap fram
 
 The Pets page shows portraits, farming references and the latest observed level and points. The tier costs are **5**, **25** and **75** souls. The bar shows progress within the current tier. Supported pickups advance that count and level; fresh login observations resynchronize the baseline.
 
-Closest to complete puts the highest unfinished tier first, then the most points within that tier. Completed level 3 pets remain at the bottom. Use the sort icon to cycle through closest, least progress, alphabetical and recent pickups. Search and filters are saved. The location button beside sorting cycles **All locations → Verteron only → Altgard only → Abyss only**. It filters pets by recorded farming sources and narrows their location labels and detail sources to that territory. All Abyss layers share one choice. The default is All locations; your selection is remembered independently of sorting. Pets with no recorded territory remain available under All locations.
+Closest to complete puts the highest unfinished tier first, then the most points within that tier. Completed level 3 pets remain at the bottom. Use the sort button to cycle through closest, least progress, alphabetical and recent pickups. Search and filters are saved. The location button beside sorting cycles **All locations → Verteron only → Altgard only → Abyss only**. It filters pets by recorded farming sources and narrows their location labels and detail sources to that territory. All Abyss layers share one choice. The default is All locations; your selection is remembered independently of sorting. Pets with no recorded territory remain available under All locations.
 
 The farming summary shows souls observed in the current reader session, the number of affected pets and the latest pickup. Select a pet card to open its farming details, including previous-session gains. The card grid stays the same size. These totals cover observed pickups, not a full play-session history or souls earned while the reader was disconnected.
 
