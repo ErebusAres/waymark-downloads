@@ -1,11 +1,11 @@
 {
-  "version": "0.5.9",
+  "notes": "# Waymark 0.5.10\r\n\r\n- Added a location toggle beside pet sorting: All locations → Verteron only → Altgard only → Abyss only.\r\n- Filters the pet library by recorded farming sources, and narrows location labels and pet detail locations to the selected territory. All Abyss layers are treated as Abyss.\r\n- Defaults to All locations and remembers your selection across launches, backups and synced saves. Existing sort, search, level and genus choices remain independent.\r\n- Abyss filtering uses recorded source information; it does not invent precise spawn coordinates where those are unavailable.\r\n",
+  "version": "0.5.10",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6R3o3WUFkaXdYK2I1UWpGWVhtcVRLU0kzelBkRldBcGliNGVvRVoxZUxzT1ZsL251NWZ1OGxQU2t4cTYyZGw2Zmh2djRtZkErR1ZoOFFjWEprb0NkQ0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk1MjI3CWZpbGU6V2F5bWFya18wLjUuOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjkKZkZQSWFFanBaZUhhU3p2UXkxenpsMVpVWkZmaEIyZXlMdXFqcFAwQlkrVkpiNnMrdXVPSmRiMlZIOUY3ajNoYWk2ZmdNOTVVamFDYU5jQ0ZOU05vQmc9PQo=",
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.9/Waymark-0.5.9-Setup.exe"
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.10/Waymark-0.5.10-Setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6RzR3QXdYcTUxQ24ydFNpNEE5SWpsOHo2UDQ3ckFoWFlwSStWZVhBTWplYnp2VjJxQmpOTzNCd0pud2pOYVpibkhsRGp2RElvcEtLMUZNOC9XUjhodmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2MDY5CWZpbGU6V2F5bWFya18wLjUuMTBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xMAoxVk42YjFaWVVsYjN5NVhUVzRZSVRhOWxyL01OVE5pTjY3ZEJIclVPOHFkWmMxMzJRUnpMZjU1dHNJS3RxUFB2Nkp0b1FXS01heGdvTnY4QTBod21CZz09Cg=="
     }
   },
-  "notes": "# Waymark 0.5.9\r\n\r\n- Farming suggestions now compare compact mapped pockets using the overlap of needed pets, target spawn density and a travel-distance penalty. Completed Lv.3 pets and currently farmed pets remain excluded from automatic next targets; explicit unfinished targets stay selected.\r\n- A suggested spot shows why it was selected. Its pet marker carries a small gold star on the main map and minimap.\r\n- Pet detail map buttons focus a suggested pocket for that creature, with home-map choices first, and zoom close enough to show spawn detail.\r\n- All enabled pets’ mapped spawn points appear automatically at close zoom. Nearby same-pet references group into small count markers and separate as you zoom closer. Wider views retain pocket portraits; Always show spawns forces point detail at any zoom.\r\n- The minimap loads the static geometry once. Live snapshot messages continue omitting spawn arrays; visible bounds limit drawn points.\r\n\r\nSuggestions use imported Aion2 Dex and Questlog reference data for Verteron and Altgard. They are not measured souls/hour or live mob availability; altitude, respawn times and competition are not inferred. Existing routes, pins, filters and progress are preserved.\r\n",
-  "pub_date": "2026-10-25T02:28:16Z"
+  "pub_date": "2026-10-25T02:42:20Z"
 }
