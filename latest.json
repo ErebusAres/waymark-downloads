@@ -1,11 +1,11 @@
 {
-  "notes": "# Waymark 0.5.8\r\n\r\n- Click a recent-soul pet on the unlocked minimap to bring the main app forward and open that pet’s details.\r\n- Use the pet’s map buttons to show farming locations for that creature specifically, with home-map locations listed first.\r\n- Saved pet filters and chosen farming targets are preserved. A pet hidden by library filters can still be opened from the minimap.\r\n- Locked minimaps remain click-through. Stale or other-character shortcuts are ignored.\r\n- Includes the direct Empyrean Trace tracking and unfinished nearby farm recommendations from 0.5.7.\r\n",
-  "pub_date": "2026-10-24T20:08:00Z",
+  "version": "0.5.9",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.8/Waymark-0.5.8-Setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6Ry80a05GaUZOSEE4UjQwdzU2bWZCRXpuY3VUMVYwOEhTb0hKRHB5T1V2ODB3N3JManZJaHI1MzdrMU1IVUhHLzEyM2dkWVhxbmJkOElKbHRCeGNDaWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODcyNDEzCWZpbGU6V2F5bWFya18wLjUuOF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjgKeUdpZ1JRSGNDT3hockdJbERVdysxbU5xMjFSRzNCRjFxdkJTTTFRR2RwQm9tclFaTUlTN3BLZnhqS3JxNTZVbk90YUg1d1BEK25DNkNBQ250eDN4QUE9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSEV2elpXNHZ6R3o3WUFkaXdYK2I1UWpGWVhtcVRLU0kzelBkRldBcGliNGVvRVoxZUxzT1ZsL251NWZ1OGxQU2t4cTYyZGw2Zmh2djRtZkErR1ZoOFFjWEprb0NkQ0FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk1MjI3CWZpbGU6V2F5bWFya18wLjUuOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC41LjkKZkZQSWFFanBaZUhhU3p2UXkxenpsMVpVWkZmaEIyZXlMdXFqcFAwQlkrVkpiNnMrdXVPSmRiMlZIOUY3ajNoYWk2ZmdNOTVVamFDYU5jQ0ZOU05vQmc9PQo=",
+      "url": "https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.9/Waymark-0.5.9-Setup.exe"
     }
   },
-  "version": "0.5.8"
+  "notes": "# Waymark 0.5.9\r\n\r\n- Farming suggestions now compare compact mapped pockets using the overlap of needed pets, target spawn density and a travel-distance penalty. Completed Lv.3 pets and currently farmed pets remain excluded from automatic next targets; explicit unfinished targets stay selected.\r\n- A suggested spot shows why it was selected. Its pet marker carries a small gold star on the main map and minimap.\r\n- Pet detail map buttons focus a suggested pocket for that creature, with home-map choices first, and zoom close enough to show spawn detail.\r\n- All enabled pets’ mapped spawn points appear automatically at close zoom. Nearby same-pet references group into small count markers and separate as you zoom closer. Wider views retain pocket portraits; Always show spawns forces point detail at any zoom.\r\n- The minimap loads the static geometry once. Live snapshot messages continue omitting spawn arrays; visible bounds limit drawn points.\r\n\r\nSuggestions use imported Aion2 Dex and Questlog reference data for Verteron and Altgard. They are not measured souls/hour or live mob availability; altitude, respawn times and competition are not inferred. Existing routes, pins, filters and progress are preserved.\r\n",
+  "pub_date": "2026-10-25T02:28:16Z"
 }
