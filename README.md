@@ -4,9 +4,9 @@
 
 Waymark is a Windows app for AION 2 Global Steam. Explore the world map, build farming routes, and follow your pet collection in one place. A floating minimap keeps nearby objectives visible while you play.
 
-[**Download Waymark 0.5.16 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.16/Waymark-0.5.16-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.16) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
+[**Download Waymark 0.5.17 for Windows**](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.17/Waymark-0.5.17-Setup.exe) · [Getting started](docs/GETTING_STARTED.md) · [Release notes](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.17) · [Screenshot gallery](docs/SCREENSHOTS.md) · [All downloads](https://github.com/ErebusAres/waymark-downloads/releases)
 
-[**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Find a player](https://waymark-aion2.erebusares.chatgpt.site/players) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
+[**Visit the Waymark website**](https://waymark-aion2.erebusares.chatgpt.site) · [Help & FAQ](https://waymark-aion2.erebusares.chatgpt.site/help)
 
 Windows 10/11, 64-bit. Public preview. No GitHub account needed to download.
 
@@ -79,7 +79,7 @@ These are static reference locations. A dense pocket can help you choose where t
 
 ## Start playing
 
-1. Download and run **Waymark-0.5.16-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
+1. Download and run **Waymark-0.5.17-Setup.exe**. Setup includes the WebView2 bootstrapper if the Windows web runtime is missing.
 2. Choose a starting map and whether to open the floating minimap. You can change both later.
 3. For automatic character and pet reads, install [Npcap from its official site](https://npcap.com/#download) with **WinPcap API-compatible Mode** enabled. Map planning works without it.
 4. Start Waymark before entering your character. If you opened Waymark while already in game, return to character selection and enter once so it can identify the session.
@@ -91,7 +91,7 @@ See the [getting-started guide](docs/GETTING_STARTED.md) for controls, update se
 
 **Keep Waymark open when you enter the game.** Already playing AION 2? When safely out of combat, return to **Character Selection in AION 2**, choose your character and enter again while Waymark stays open. Give it a moment to detect your character and start updating information.
 
-Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game, and signing into the website is a separate step. If starting the game next, open Waymark first and enter your character normally.
+Waymark reads the starting character information during world entry. Selecting a saved profile inside Waymark does not connect the game. If starting the game next, open Waymark first and enter your character normally.
 
 Waymark explains this at startup when a character has not connected. **Don't show this at startup** remembers your preference; restore it under **Settings → Connection**. The notice stays dismissed for the current launch and does not reopen after a later disconnection.
 
@@ -125,14 +125,8 @@ Character observations, progress, pins, routes and settings are stored locally. 
 
 This repository contains public downloads and documentation. Application source is maintained separately. Waymark is an independent project and is not affiliated with NCSOFT. AION 2 names and game artwork belong to their respective owners; bundled attribution accompanies the app.
 
-## Your character, online
+## Downloads and help
 
-Waymark 0.5.0 adds a public website with player search, character collections, downloads and installation guides. Select **View online** beside the active character, or **Settings → Website & sync → Connect account**. Sign in and approve the installation code once. No game password is requested.
+The [Waymark website](https://waymark-aion2.erebusares.chatgpt.site) provides downloads, install instructions and help. Online character pages, player search, cloud saves and remote usage reporting have retired. No account link is needed.
 
-Current connected apps upload changed progress after two quiet minutes, at least five minutes apart, with a checkpoint after 15 minutes of continuous activity. Unchanged data and usage timers alone do not trigger uploads. Use Sync now to send pending changes sooner. Public pages show character name, region, server, faction, pet observations and marked collection totals. Search accepts **Jilara[NEZ]**, a name and separate server filter, or a name prefix. Searching a name alone includes matches across servers, labeled Jilara[NEZ], Jilara[ZIK], and so on. The directory includes only synced visible Waymark profiles. Upload time and game observation time are shown separately; a recent sync does not prove a character is online.
-
-Settings, routes, custom pins and window layouts are saved privately to the account. The site keeps five changed saves per device, downloadable as JSON. Automatic restore is not included. Exact live positions, inventory, captures and credentials are not uploaded. Manage profile visibility and connected devices in **My characters**. Usage totals are cumulative and do not count the same installation report repeatedly.
-
-These are app-synced observations, not official game records or independent ownership verification. [Read the data policy](https://waymark-aion2.erebusares.chatgpt.site/privacy).
-
-[View website screenshots and setup overview](docs/WEBSITE.md).
+Pet tracking, collection progress, settings, routes, pins, minimap layout and usage statistics stay on your PC. Use **Settings → Data & backups** for local backups. The old tracking endpoints stop accepting uploads, including from older versions.

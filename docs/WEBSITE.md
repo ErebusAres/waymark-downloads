@@ -1,26 +1,7 @@
 # Waymark website
 
-[Open Waymark](https://waymark-aion2.erebusares.chatgpt.site) · [Download 0.5.0](https://github.com/ErebusAres/waymark-downloads/releases/tag/v0.5.0)
+[Open Waymark](https://waymark-aion2.erebusares.chatgpt.site) for Windows downloads, installation instructions and help.
 
-The website includes downloads, setup instructions, help, player search and synced character collections. Sign in only to connect an installation and manage your own profiles, devices and private saves.
+Character pages, player search, cloud saves and remote usage reporting have retired. Legacy tracking endpoints return HTTP 410 and do not access D1/R2. Existing stored records are preserved and are no longer served through the website.
 
-## Homepage
-
-![Homepage](images/website-home.png)
-
-## Download and installation
-
-![Download and installation](images/website-download.png)
-
-## Help and FAQ
-
-![Help and FAQ](images/website-help.png)
-
-## Player directory
-
-![Player directory](images/website-players.png)
-
-## Synced character collection
-
-![Synced character collection](images/website-character.png)
-
+The desktop app keeps its character and pet tracking, local progress, settings, routes, pins, minimap layout, local statistics and backups. No website account is needed.

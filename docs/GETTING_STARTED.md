@@ -1,10 +1,10 @@
 # Getting started with Waymark
 
-[Download 0.5.16](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.16/Waymark-0.5.16-Setup.exe) · [Back to Waymark](../README.md)
+[Download 0.5.17](https://github.com/ErebusAres/waymark-downloads/releases/download/v0.5.17/Waymark-0.5.17-Setup.exe) · [Back to Waymark](../README.md)
 
 ## Install
 
-Run **Waymark-0.5.16-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
+Run **Waymark-0.5.17-Setup.exe** on 64-bit Windows 10 or 11. The installer includes a WebView2 bootstrapper for systems missing that runtime; it may need an internet connection. No Python, Node.js or development tools are required.
 
 On first launch, select Verteron, Altgard or Abyss and choose whether to show the floating minimap. **Start exploring** applies the map selection; **Keep current map** keeps the existing map. Both actions save the minimap checkbox.
 
@@ -147,19 +147,13 @@ Update to 0.4.0 for bounded packet reassembly, automatic stalled-worker replacem
 
 Open **Settings → Statistics** for automatic counters since tracking began. **Copy summary** prepares counts for sharing. **Export reporting JSON** saves cumulative counters, an installation ID and hashed character identities for future combined reporting. Historical farming is not reconstructed. The future site can combine repeated reports without adding the same totals again; no reporting service is configured yet.
 
-## View your character online
+## Local progress and backups
 
-Use **View online** beside the character selector, or **Settings → Website & sync → Connect account**. Approve the code on the website once. The app syncs progress automatically while running. You can hide profiles, disconnect devices and download private workspace snapshots from [My characters](https://waymark-aion2.erebusares.chatgpt.site/account). [Full setup instructions](https://waymark-aion2.erebusares.chatgpt.site/help/sync).
-
-![Example of the exact suggested farming pocket selected on the map](images/map-target.png)
-
-### Automatic versus chosen farming targets
-
-From 0.5.9, automatic guidance scores compact farming pockets using needed-pet overlap, mapped target density and travel distance. Suggestions use static reference positions, not measured drop speed. The suggested marker has a small gold star, and its summary gives the reason for selection. Unfinished goals define the shortlist when present. Automatic suggestions are not saved as chosen targets. Click a goal name, Use as target in pet details, or Another to choose a pet explicitly; it remains selected across restarts. Select Auto to return to reference-based spot suggestions. Old automatic suggestions saved by 0.5.3 no longer act as pinned choices.
+Online character profiles and cloud saves have retired. Progress, settings, routes, pins and statistics stay on your PC. Use **Settings → Data & backups** for a local backup; no website account is needed.
 
 ## Character connection reminder
 
-If you open Waymark after entering the game, return safely to **Character Selection in AION 2**, select your character and enter again with Waymark still open. This is a game character login, not the saved-profile selector in Waymark or the website account sign-in.
+If you open Waymark after entering the game, return safely to **Character Selection in AION 2**, select your character and enter again with Waymark still open. This is a game character login, not the saved-profile selector in Waymark or an online account.
 
 The startup reminder explains these steps until you acknowledge it. Its **Don't show this at startup** preference is saved. You can re-enable it in **Settings → Connection**, which also keeps the instructions available to read again. First-run setup includes the same login steps.
 
